@@ -7,7 +7,7 @@ library(dplyr)
 library(coRanking)
 
 
-kmeans_eval <- function(feature, celltype, seed = 1234){
+kmeans_eval <- function(feature, celltype, iter = 50, seed = 1234){
  # This function is used to performame iterative k-means clustering based on projected 
  # features for single cell data and then evaluate the performance according to 
  # Nomalized mutual information (NMI) and adjusted rand index (ARI)
@@ -15,7 +15,8 @@ kmeans_eval <- function(feature, celltype, seed = 1234){
  # Args:
  #  feature: a data.frame contains projected features (n dimensional space, n = 2, 3 ...), the columns are
  #    projected features in n dimensional space for a sample (cell), rows are samples
- #  celltype: vector contains cell type informantion 
+ #  celltype: vector contains cell type informantion
+ #  iter: number of interation for k-means clustering
  #  seed: seed for k-means clustering
  # Returns:
  #   mean and stard deviation of NMI and ARI
@@ -32,9 +33,6 @@ kmeans_eval <- function(feature, celltype, seed = 1234){
   sample_id <- seq(1:nrow(feature))
   
   # iterative k-means
-  # set number of iteration to be 50
-  iter <- 50
-  
   nmi_score_all <- c()
   ari_score_all <- c()
   
@@ -67,7 +65,10 @@ dim_reduc <- function(data, option = "SIMLR", seed = 12345){
   # Perform SIMLR or PCA dimension reduction 
   # Args:
   #   data: matrix used to do dimension reduction
-  #   option: SILMR/PCA 
+  #   option: SIMLR/PCA: SIMLR is an statistical approach to find subpopulation of cells 
+  #           based on similarity. For detail description of the algorithm, see
+  #           https://www.bioconductor.org/packages/release/bioc/html/SIMLR.html
+  #
   # Returns:
   #   features projected into two dimensional spaces
   #
@@ -112,7 +113,11 @@ ave_sil <- function(feature, celltype){
 }
 
 coranking_metric <- function(count.matrix, dm.matrix){
-  # Compute coranking metric to evaluate the performance of dimension reduction
+  # Compute coranking metric to evaluate the performance of dimension reduction.
+  # In general, coranking matrix is based on the distance matrix of high- and low-
+  #  dimensional feature matrix. For each vetor i in the feature matrix, the rank of vector 
+  #  j with respect to i is computed based on distance. It compares the rank of each element
+  #  in the high dimensional space with the rank of the same element in the low dimensional space.
   # for detail definition of coranking matrix, see 
   # Lee, J.A., Lee, J.A., Verleysen, M., 2009. Quality assessment of dimensionality reduction:
   #  Rank-based criteria. Neurocomputing 72
@@ -123,8 +128,8 @@ coranking_metric <- function(count.matrix, dm.matrix){
   # Returns:
   #   q.local and q.global
   
-  coranking.matrix <- coRanking::coranking(t(count.matrix), dm.matrix[, 2:3])
-  numeric(nrow(coranking.matrix))
+  coranking.matrix <- coRanking::coranking(t(count.matrix), dm.matrix)
+  lcmc <- numeric(nrow(coranking.matrix))
   lcmc <- coRanking::LCMC(coranking.matrix)
   
   # get the position of max lcmc value

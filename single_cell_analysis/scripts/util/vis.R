@@ -16,17 +16,16 @@ clustering_perf_heatmap <- function(cluster_perf, type = "NMI", option = "real")
   if(option == "simulated"){
     # simulated parameters
     par <- c("celltypes", "ncell", "ngenes", "outlier")
+    my_palette <- colorRampPalette(c("white", "blue"))(n = 50)
     
     for(i in 1:length(par)){
       # get performance metric for a specific parameter
       param_perf <- cluster_perf[grep(par[i], cluster_perf$files), ]
       param_perf$files <- gsub(paste(par[i], ".", sep = ""), 
                              "", param_perf$files)
-      
       param_perf <- param_perf[order(as.numeric(param_perf$files)), ]
       
       pdf(file.path(output.dir, paste(par[i], type, "pdf", sep = ".")), width=7, height=5)
-      my_palette <- colorRampPalette(c("white", "blue"))(n = 50)
       gplots::heatmap.2(as.matrix(param_perf[, -1]), Rowv = FALSE, Colv = FALSE, dendrogram = "none",
               cellnote = param_perf[, -1], notecol = "black", notecex = 1,
               trace = "none", key = FALSE, margins = c(7, 5),
@@ -36,8 +35,6 @@ clustering_perf_heatmap <- function(cluster_perf, type = "NMI", option = "real")
     }
   } else if(option == "real"){
     pdf(file.path(output.dir, paste("real.data", type, "pdf", sep = ".")), width=10, height=8)
-    
-    my_palette <- colorRampPalette(c("white", "blue"))(n = 50)
     gplots::heatmap.2(as.matrix(cluster_perf[, -1]), Rowv = FALSE, Colv = FALSE, dendrogram = "none",
                       cellnote = cluster_perf[, -1], notecol = "black", notecex = 1,
                       trace = "none", key = FALSE, margins = c(10, 8),
@@ -109,7 +106,8 @@ feature_vis <- function(feature_file, cellinfo, type = "tybalt_tsne_depth1", dat
   }
   colnames(file) <- c("id", "X1", "X2", "Group")
     
-  # remove outlier for visulization
+  # remove outlier for visulization. The parameters are defined based on X and Y distributions. 
+  # only 1 - 2 datapoints are located ouside of this range.
   file <- file[file$X1 > -50 & file$X2 > -50, ]
   file <- file[file$X1 < 100 & file$X2 < 100, ]
     

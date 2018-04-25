@@ -51,7 +51,6 @@ kmean_pf_metric <- function(input.dir, option = "real"){
     cellinfo <- read.table(file.path(input.dir, cellinfo.files[i]), sep = "\t", header = TRUE)
     
     # extract dataset information
-    #dataset <- get_param(tybalt_d1_files[i], option = option)
     dataset.info <- unlist(strsplit(tybalt_d1_files[i], split = "[.]"))
     if(option == "real"){
       dataset <- dataset.info[1]

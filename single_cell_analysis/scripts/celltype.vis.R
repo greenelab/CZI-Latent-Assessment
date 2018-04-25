@@ -57,7 +57,6 @@ output.dir <- file.path("figures", "features_vis", "simulated_data")
 sim.file.list <- read.table(file.path(input.dir, "sim.file.list.txt"))
 celltye_vis(input.dir, output.dir, sim.file.list, option = "simulated")
 
-
 # visulization for real data
 input.dir <- file.path("features", "real_data")
 output.dir <- file.path("figures", "features_vis", "real_datasets")
@@ -65,7 +64,3 @@ output.dir <- file.path("figures", "features_vis", "real_datasets")
 # list of real files
 real.file.list <- read.table(file.path(input.dir, "file.list.txt"))
 celltye_vis(input.dir, output.dir, real.file.list, option = "real")
-
-
-
-
