@@ -157,6 +157,3 @@ get_param <- function(filename, option = "simulated"){
   }
   return(parameter)
 }
-
-
-
