@@ -2,16 +2,13 @@
 
 # Pipeline to generate/download simulated and real single cell datasets and do data processing
 #
-# Usage: bash data.download.processing.sh
+# Usage: bash scripts/00-data.download.processing/data.download.processing.sh
 #
-# Output: log(or TPM) -normalized count files and files contain celltype information. 
+# Output: log(or TPM) - normalized count files and files contain celltype information. 
 #         files are located at data/real_data for real datasets and data/simulate_data for simulated datasets
-
-
 
 # 1. Generate simulated datasets
   Rscript splatter.simulation.R
-
 
 # 2. download and process real datasets
   Rscript real.datasets.download.R
