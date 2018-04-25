@@ -15,18 +15,20 @@ library(SingleCellExperiment)
 seed = 628540
 set.seed(seed)
 
-simulation <- function(ncells = 600, nGenes = 10000, celltypes = 5, batchsize = 1, out.prob = 0.05, seed = 628540){
+simulation <- function(ncells = 600, nGenes = 10000, celltypes = 5,
+                       batchsize = 1, out.prob = 0.05, seed = 628540){
   # Generate simulated single cell data from splatter
   # Args:
   #  ncells: # of cells in each sample, default = 600
-  #  nGenes: # of genes/features in each sample, defalut = 10000
+  #  nGenes: # of genes/features in each sample, default = 10000
   #  celltypes: # of celltypes, default = 5
   #  bathsize: # of bathsize, default = 1
   #  out.prob:  probability of a gene that become an outlier, default = 0.05
   # Returns:
   #  matrix of gene counts/expression and celltype information
   
-  # caculate the probabilities that cells come from particular celltypes - currently even distributed
+  # calculate the probabilities that cells come from particular celltypes
+  # currently even distributed
   celltype_prob = 1/celltypes
   celltype_prob_distr = rep(celltype_prob, celltypes)
   
@@ -36,11 +38,17 @@ simulation <- function(ncells = 600, nGenes = 10000, celltypes = 5, batchsize = 
   
   # get initial parameters
   params <- splatter::newSplatParams()
-  params <- splatter::setParams(params, update = list(batchCells = ncells, nGenes = nGenes, out.prob = out.prob, seed = seed))
+  params <- splatter::setParams(params, update = list(batchCells = ncells, 
+                                                      nGenes = nGenes, 
+                                                      out.prob = out.prob,
+                                                      seed = seed))
   
   # generate simulation data
-  sim.groups <- splatter::splatSimulate(params, batchCells = batchcells, group.prob = celltype_prob_distr, method = "groups",
-                              verbose = FALSE)
+  sim.groups <- splatter::splatSimulate(params, 
+                                        batchCells = batchcells, 
+                                        group.prob = celltype_prob_distr, 
+                                        method = "groups", 
+                                        verbose = FALSE)
   # gene length
   sim.groups <- splatter::addGeneLengths(sim.groups)
   
@@ -60,7 +68,8 @@ simulation <- function(ncells = 600, nGenes = 10000, celltypes = 5, batchsize = 
 }
 
 singlecell_simulation <- function(option = "ncells", paramvector, output.dir){
-  # Generate batch simulated data for different parameters and output the results into data file
+  # Generate batch simulated data for different parameters
+  # and output the results into data file
   # Args:
   #
   # option: 
@@ -93,11 +102,22 @@ singlecell_simulation <- function(option = "ncells", paramvector, output.dir){
       sim_result <- simulation(out.prob = paramvector[i])
     }
   }
-  write.table(sim_result[[1]], file = file.path(output.dir, paste("sim", option, paramvector[i], "count.matrix.txt", sep = ".")),
+  write.table(sim_result[[1]], 
+              file = file.path(output.dir, paste("sim", 
+                                                 option, paramvector[i], 
+                                                 "count.matrix.txt", 
+                                                 sep = ".")), 
               quote = FALSE, sep = "\t", col.names = TRUE, row.names = TRUE)
-  write.table(sim_result[[2]], file.path(output.dir, paste("sim", option, paramvector[i], "exp.matrix.txt", sep = ".")),
+  write.table(sim_result[[2]], 
+              file.path(output.dir, paste("sim", 
+                                          option, paramvector[i],
+                                          "exp.matrix.txt", 
+                                          sep = ".")),
               quote = FALSE, sep = "\t", col.names = TRUE, row.names = FALSE)
-  write.table(sim_result[[3]], file.path(output.dir, paste("sim", option, paramvector[i], "celltype.txt", sep = ".")),
+  write.table(sim_result[[3]], 
+              file.path(output.dir, paste("sim", 
+                                          option, paramvector[i], 
+                                          "celltype.txt", sep = ".")),
               quote = FALSE, sep = "\t", col.names = TRUE, row.names = FALSE)
 }
 
