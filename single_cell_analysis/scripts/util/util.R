@@ -1,12 +1,6 @@
 # Qiwen Hu 2018
 # core functions
 
-library(NMI)
-library(mclust)
-library(dplyr)
-library(coRanking)
-
-
 kmeans_eval <- function(feature, celltype, iter = 50, seed = 1234){
  # This function is used to performame iterative k-means clustering based on projected 
  # features for single cell data and then evaluate the performance according to 
