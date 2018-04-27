@@ -1,0 +1,778 @@
+sample	celltype
+A10_de	definitive endoderm
+A11_de	definitive endoderm
+A2_de	definitive endoderm
+A3_de	definitive endoderm
+A5_de	definitive endoderm
+A7_de	definitive endoderm
+A8_de	definitive endoderm
+B11_de	definitive endoderm
+B1_de	definitive endoderm
+B2_de	definitive endoderm
+B3_de	definitive endoderm
+B4_de	definitive endoderm
+B7_de	definitive endoderm
+B8_de	definitive endoderm
+B9_de	definitive endoderm
+C10_de	definitive endoderm
+C12_de	definitive endoderm
+C1_de	definitive endoderm
+C3_de	definitive endoderm
+C4_de	definitive endoderm
+C5_de	definitive endoderm
+C6_de	definitive endoderm
+C7_de	definitive endoderm
+C9_de	definitive endoderm
+D11_de	definitive endoderm
+D12_de	definitive endoderm
+D2_de	definitive endoderm
+D3_de	definitive endoderm
+D4_de	definitive endoderm
+D5_de	definitive endoderm
+D6_de	definitive endoderm
+D7_de	definitive endoderm
+D8_de	definitive endoderm
+E10_de	definitive endoderm
+E11_de	definitive endoderm
+E12_de	definitive endoderm
+E1_de	definitive endoderm
+E2_de	definitive endoderm
+E3_de	definitive endoderm
+E4_de	definitive endoderm
+E5_de	definitive endoderm
+E6_de	definitive endoderm
+E8_de	definitive endoderm
+E9_de	definitive endoderm
+F10_de	definitive endoderm
+F11_de	definitive endoderm
+F12_de	definitive endoderm
+F1_de	definitive endoderm
+F2_de	definitive endoderm
+F3_de	definitive endoderm
+F4_de	definitive endoderm
+F7_de	definitive endoderm
+F8_de	definitive endoderm
+F9_de	definitive endoderm
+G10_de	definitive endoderm
+G11_de	definitive endoderm
+G12_de	definitive endoderm
+G1_de	definitive endoderm
+G4_de	definitive endoderm
+G6_de	definitive endoderm
+G7_de	definitive endoderm
+G9_de	definitive endoderm
+H10_de	definitive endoderm
+H11_de	definitive endoderm
+H12_de	definitive endoderm
+H4_de	definitive endoderm
+H5_de	definitive endoderm
+H6_de	definitive endoderm
+H7_de	definitive endoderm
+H9_de	definitive endoderm
+A10_ih1	immature hepatoblast
+A11_ih1	immature hepatoblast
+A12_ih1	immature hepatoblast
+A2_ih1	immature hepatoblast
+A3_ih1	immature hepatoblast
+A4_ih1	immature hepatoblast
+A5_ih1	immature hepatoblast
+A6_ih1	immature hepatoblast
+A7_ih1	immature hepatoblast
+A8_ih1	immature hepatoblast
+A9_ih1	immature hepatoblast
+B10_ih1	immature hepatoblast
+B11_ih1	immature hepatoblast
+B2_ih1	immature hepatoblast
+B4_ih1	immature hepatoblast
+B5_ih1	immature hepatoblast
+B6_ih1	immature hepatoblast
+B7_ih1	immature hepatoblast
+B8_ih1	immature hepatoblast
+C10_ih1	immature hepatoblast
+C11_ih1	immature hepatoblast
+C12_ih1	immature hepatoblast
+C1_ih1	immature hepatoblast
+C2_ih1	immature hepatoblast
+C3_ih1	immature hepatoblast
+C4_ih1	immature hepatoblast
+C5_ih1	immature hepatoblast
+C7_ih1	immature hepatoblast
+C8_ih1	immature hepatoblast
+C9_ih1	immature hepatoblast
+D10_ih1	immature hepatoblast
+D11_ih1	immature hepatoblast
+D12_ih1	immature hepatoblast
+D1_ih1	immature hepatoblast
+D2_ih1	immature hepatoblast
+D5_ih1	immature hepatoblast
+D6_ih1	immature hepatoblast
+D7_ih1	immature hepatoblast
+D8_ih1	immature hepatoblast
+D9_ih1	immature hepatoblast
+E10_ih1	immature hepatoblast
+E11_ih1	immature hepatoblast
+E12_ih1	immature hepatoblast
+E1_ih1	immature hepatoblast
+E2_ih1	immature hepatoblast
+E3_ih1	immature hepatoblast
+E5_ih1	immature hepatoblast
+E6_ih1	immature hepatoblast
+E7_ih1	immature hepatoblast
+E8_ih1	immature hepatoblast
+E9_ih1	immature hepatoblast
+F10_ih1	immature hepatoblast
+F11_ih1	immature hepatoblast
+F12_ih1	immature hepatoblast
+F1_ih1	immature hepatoblast
+F2_ih1	immature hepatoblast
+F4_ih1	immature hepatoblast
+F5_ih1	immature hepatoblast
+F6_ih1	immature hepatoblast
+F7_ih1	immature hepatoblast
+F8_ih1	immature hepatoblast
+F9_ih1	immature hepatoblast
+G10_ih1	immature hepatoblast
+G11_ih1	immature hepatoblast
+G12_ih1	immature hepatoblast
+G1_ih1	immature hepatoblast
+G3_ih1	immature hepatoblast
+G4_ih1	immature hepatoblast
+G6_ih1	immature hepatoblast
+G7_ih1	immature hepatoblast
+G8_ih1	immature hepatoblast
+G9_ih1	immature hepatoblast
+H10_ih1	immature hepatoblast
+H11_ih1	immature hepatoblast
+H12_ih1	immature hepatoblast
+H1_ih1	immature hepatoblast
+H3_ih1	immature hepatoblast
+H4_ih1	immature hepatoblast
+H5_ih1	immature hepatoblast
+H7_ih1	immature hepatoblast
+H8_ih1	immature hepatoblast
+A10_ipsc	ipsc
+A11_ipsc	ipsc
+A12_ipsc	ipsc
+A2_ipsc	ipsc
+A3_ipsc	ipsc
+A4_ipsc	ipsc
+A5_ipsc	ipsc
+A7_ipsc	ipsc
+A8_ipsc	ipsc
+A9_ipsc	ipsc
+B10_ipsc	ipsc
+B11_ipsc	ipsc
+B12_ipsc	ipsc
+B1_ipsc	ipsc
+B2_ipsc	ipsc
+B3_ipsc	ipsc
+B4_ipsc	ipsc
+B5_ipsc	ipsc
+B6_ipsc	ipsc
+B7_ipsc	ipsc
+B8_ipsc	ipsc
+B9_ipsc	ipsc
+C10_ipsc	ipsc
+C11_ipsc	ipsc
+C12_ipsc	ipsc
+C2_ipsc	ipsc
+C3_ipsc	ipsc
+C4_ipsc	ipsc
+C5_ipsc	ipsc
+C6_ipsc	ipsc
+C7_ipsc	ipsc
+C8_ipsc	ipsc
+C9_ipsc	ipsc
+D10_ipsc	ipsc
+D11_ipsc	ipsc
+D12_ipsc	ipsc
+D2_ipsc	ipsc
+D3_ipsc	ipsc
+D4_ipsc	ipsc
+D5_ipsc	ipsc
+D7_ipsc	ipsc
+D9_ipsc	ipsc
+E10_ipsc	ipsc
+E11_ipsc	ipsc
+E12_ipsc	ipsc
+E1_ipsc	ipsc
+E2_ipsc	ipsc
+E3_ipsc	ipsc
+E5_ipsc	ipsc
+E6_ipsc	ipsc
+E7_ipsc	ipsc
+E8_ipsc	ipsc
+F10_ipsc	ipsc
+F11_ipsc	ipsc
+F1_ipsc	ipsc
+F2_ipsc	ipsc
+F3_ipsc	ipsc
+F5_ipsc	ipsc
+F7_ipsc	ipsc
+F8_ipsc	ipsc
+F9_ipsc	ipsc
+G11_ipsc	ipsc
+G12_ipsc	ipsc
+G2_ipsc	ipsc
+G3_ipsc	ipsc
+G4_ipsc	ipsc
+G5_ipsc	ipsc
+G7_ipsc	ipsc
+G8_ipsc	ipsc
+G9_ipsc	ipsc
+H10_ipsc	ipsc
+H11_ipsc	ipsc
+H12_ipsc	ipsc
+H1_ipsc	ipsc
+H2_ipsc	ipsc
+H3_ipsc	ipsc
+H4_ipsc	ipsc
+H7_ipsc	ipsc
+H8_ipsc	ipsc
+H9_ipsc	ipsc
+A2_mh1	mature hepatocyte
+A5_mh1	mature hepatocyte
+A7_mh1	mature hepatocyte
+B12_mh1	mature hepatocyte
+B4_mh1	mature hepatocyte
+B8_mh1	mature hepatocyte
+B9_mh1	mature hepatocyte
+C11_mh1	mature hepatocyte
+C9_mh1	mature hepatocyte
+D11_mh1	mature hepatocyte
+D2_mh1	mature hepatocyte
+D3_mh1	mature hepatocyte
+D7_mh1	mature hepatocyte
+E11_mh1	mature hepatocyte
+E1_mh1	mature hepatocyte
+E2_mh1	mature hepatocyte
+E5_mh1	mature hepatocyte
+E6_mh1	mature hepatocyte
+F11_mh1	mature hepatocyte
+F1_mh1	mature hepatocyte
+F3_mh1	mature hepatocyte
+F4_mh1	mature hepatocyte
+F5_mh1	mature hepatocyte
+F8_mh1	mature hepatocyte
+G1_mh1	mature hepatocyte
+G6_mh1	mature hepatocyte
+H11_mh1	mature hepatocyte
+H12_mh1	mature hepatocyte
+H2_mh1	mature hepatocyte
+H3_mh1	mature hepatocyte
+H4_mh1	mature hepatocyte
+H7_mh1	mature hepatocyte
+H8_mh1	mature hepatocyte
+H9_mh1	mature hepatocyte
+A11_mh2	mature hepatocyte
+A12_mh2	mature hepatocyte
+A3_mh2	mature hepatocyte
+A4_mh2	mature hepatocyte
+A7_mh2	mature hepatocyte
+A9_mh2	mature hepatocyte
+B11_mh2	mature hepatocyte
+B12_mh2	mature hepatocyte
+B1_mh2	mature hepatocyte
+B2_mh2	mature hepatocyte
+B4_mh2	mature hepatocyte
+C1_mh2	mature hepatocyte
+C2_mh2	mature hepatocyte
+C5_mh2	mature hepatocyte
+C6_mh2	mature hepatocyte
+C7_mh2	mature hepatocyte
+C9_mh2	mature hepatocyte
+D1_mh2	mature hepatocyte
+D2_mh2	mature hepatocyte
+D3_mh2	mature hepatocyte
+D4_mh2	mature hepatocyte
+D8_mh2	mature hepatocyte
+E10_mh2	mature hepatocyte
+E11_mh2	mature hepatocyte
+E6_mh2	mature hepatocyte
+E7_mh2	mature hepatocyte
+F10_mh2	mature hepatocyte
+F12_mh2	mature hepatocyte
+F2_mh2	mature hepatocyte
+F4_mh2	mature hepatocyte
+F6_mh2	mature hepatocyte
+F8_mh2	mature hepatocyte
+F9_mh2	mature hepatocyte
+G10_mh2	mature hepatocyte
+G12_mh2	mature hepatocyte
+G1_mh2	mature hepatocyte
+G2_mh2	mature hepatocyte
+G3_mh2	mature hepatocyte
+G6_mh2	mature hepatocyte
+G7_mh2	mature hepatocyte
+G8_mh2	mature hepatocyte
+G9_mh2	mature hepatocyte
+H11_mh2	mature hepatocyte
+H12_mh2	mature hepatocyte
+H1_mh2	mature hepatocyte
+H3_mh2	mature hepatocyte
+H5_mh2	mature hepatocyte
+A1_he2	hepatic endoderm
+A1_huvec	endothelial
+A1_lb1	mesenchymal stem cell
+A1_msc2	mesenchymal stem cell
+A10_he1	hepatic endoderm
+A10_he2	hepatic endoderm
+A10_huvec	endothelial
+A10_lb2	endothelial
+A10_lb5	mesenchymal stem cell
+A10_msc2	mesenchymal stem cell
+A11_he1	hepatic endoderm
+A11_he2	hepatic endoderm
+A11_huvec	endothelial
+A11_lb5	endothelial
+A11_msc2	mesenchymal stem cell
+A12_he1	hepatic endoderm
+A12_he2	hepatic endoderm
+A12_huvec	endothelial
+A12_lb1	endothelial
+A12_msc1	mesenchymal stem cell
+A12_msc2	mesenchymal stem cell
+A2_he2	hepatic endoderm
+A2_huvec	endothelial
+A2_msc2	mesenchymal stem cell
+A3_he1	hepatic endoderm
+A3_he2	hepatic endoderm
+A3_huvec	endothelial
+A3_lb5	hepatic endoderm
+A3_lb6	hepatic endoderm
+A3_msc1	mesenchymal stem cell
+A3_msc2	mesenchymal stem cell
+A4_he1	hepatic endoderm
+A4_he2	hepatic endoderm
+A4_huvec	endothelial
+A4_lb1	mesenchymal stem cell
+A4_lb2	endothelial
+A4_lb5	hepatic endoderm
+A4_msc2	mesenchymal stem cell
+A5_he2	hepatic endoderm
+A5_huvec	endothelial
+A5_lb3	endothelial
+A5_lb5	mesenchymal stem cell
+A5_msc1	mesenchymal stem cell
+A6_he2	hepatic endoderm
+A6_huvec	endothelial
+A6_lb1	mesenchymal stem cell
+A6_lb2	endothelial
+A6_lb3	hepatic endoderm
+A6_lb5	mesenchymal stem cell
+A7_he1	hepatic endoderm
+A7_he2	hepatic endoderm
+A7_huvec	endothelial
+A7_lb2	endothelial
+A7_lb5	hepatic endoderm
+A7_msc2	mesenchymal stem cell
+A8_he2	hepatic endoderm
+A8_huvec	endothelial
+A8_msc2	mesenchymal stem cell
+A9_he1	hepatic endoderm
+A9_he2	hepatic endoderm
+A9_lb1	endothelial
+B1_huvec	endothelial
+B1_lb2	endothelial
+B1_lb3	mesenchymal stem cell
+B1_msc2	mesenchymal stem cell
+B10_he1	hepatic endoderm
+B10_he2	hepatic endoderm
+B10_huvec	endothelial
+B10_lb1	endothelial
+B10_msc1	mesenchymal stem cell
+B10_msc2	mesenchymal stem cell
+B11_he1	hepatic endoderm
+B11_he2	hepatic endoderm
+B11_huvec	endothelial
+B11_lb2	mesenchymal stem cell
+B11_lb5	mesenchymal stem cell
+B11_msc2	mesenchymal stem cell
+B12_he2	hepatic endoderm
+B12_huvec	endothelial
+B12_lb1	endothelial
+B12_lb2	mesenchymal stem cell
+B12_lb3	endothelial
+B12_msc2	mesenchymal stem cell
+B2_he1	hepatic endoderm
+B2_huvec	endothelial
+B2_lb2	hepatic endoderm
+B3_he1	hepatic endoderm
+B3_he2	hepatic endoderm
+B3_huvec	endothelial
+B3_lb2	hepatic endoderm
+B3_lb5	endothelial
+B3_msc2	mesenchymal stem cell
+B4_he1	hepatic endoderm
+B4_he2	hepatic endoderm
+B4_msc1	mesenchymal stem cell
+B4_msc2	mesenchymal stem cell
+B5_he1	hepatic endoderm
+B5_huvec	endothelial
+B5_lb1	mesenchymal stem cell
+B5_lb2	mesenchymal stem cell
+B5_msc2	mesenchymal stem cell
+B6_he1	hepatic endoderm
+B6_he2	hepatic endoderm
+B6_huvec	endothelial
+B6_lb1	mesenchymal stem cell
+B6_lb2	hepatic endoderm
+B6_msc2	mesenchymal stem cell
+B7_he2	hepatic endoderm
+B7_lb2	mesenchymal stem cell
+B7_lb3	hepatic endoderm
+B7_lb5	endothelial
+B7_msc2	mesenchymal stem cell
+B8_he1	hepatic endoderm
+B8_he2	hepatic endoderm
+B8_lb2	mesenchymal stem cell
+B8_lb5	mesenchymal stem cell
+B9_he2	hepatic endoderm
+B9_huvec	endothelial
+B9_lb5	endothelial
+B9_msc1	mesenchymal stem cell
+C1_he2	hepatic endoderm
+C1_huvec	endothelial
+C1_lb2	hepatic endoderm
+C1_lb5	hepatic endoderm
+C1_msc2	mesenchymal stem cell
+C10_he1	hepatic endoderm
+C10_he2	hepatic endoderm
+C10_huvec	endothelial
+C10_msc2	mesenchymal stem cell
+C11_he1	hepatic endoderm
+C11_he2	hepatic endoderm
+C11_huvec	endothelial
+C11_lb1	mesenchymal stem cell
+C11_lb2	mesenchymal stem cell
+C11_lb5	mesenchymal stem cell
+C11_msc2	mesenchymal stem cell
+C12_he2	hepatic endoderm
+C12_huvec	endothelial
+C12_lb2	mesenchymal stem cell
+C2_he1	hepatic endoderm
+C2_he2	hepatic endoderm
+C2_lb1	hepatic endoderm
+C2_msc2	mesenchymal stem cell
+C3_he1	hepatic endoderm
+C3_he2	hepatic endoderm
+C3_msc2	mesenchymal stem cell
+C4_he1	hepatic endoderm
+C4_he2	hepatic endoderm
+C4_huvec	endothelial
+C4_lb5	mesenchymal stem cell
+C4_msc1	mesenchymal stem cell
+C4_msc2	mesenchymal stem cell
+C5_he1	hepatic endoderm
+C5_he2	hepatic endoderm
+C5_huvec	endothelial
+C5_lb5	mesenchymal stem cell
+C5_msc1	mesenchymal stem cell
+C5_msc2	mesenchymal stem cell
+C6_he1	hepatic endoderm
+C6_he2	hepatic endoderm
+C6_huvec	endothelial
+C6_msc1	mesenchymal stem cell
+C6_msc2	mesenchymal stem cell
+C7_he1	hepatic endoderm
+C7_he2	hepatic endoderm
+C7_huvec	endothelial
+C7_msc1	mesenchymal stem cell
+C7_msc2	mesenchymal stem cell
+C8_he1	hepatic endoderm
+C8_he2	hepatic endoderm
+C8_huvec	endothelial
+C8_lb1	endothelial
+C8_lb2	hepatic endoderm
+C8_msc2	mesenchymal stem cell
+C9_he2	hepatic endoderm
+C9_huvec	endothelial
+C9_lb2	mesenchymal stem cell
+C9_lb3	hepatic endoderm
+C9_lb6	endothelial
+C9_msc2	mesenchymal stem cell
+D1_he2	hepatic endoderm
+D1_huvec	endothelial
+D1_lb1	endothelial
+D1_msc2	mesenchymal stem cell
+D10_he1	hepatic endoderm
+D10_he2	hepatic endoderm
+D10_huvec	endothelial
+D10_lb1	mesenchymal stem cell
+D10_lb2	endothelial
+D10_lb5	endothelial
+D10_msc2	mesenchymal stem cell
+D11_he2	hepatic endoderm
+D11_lb2	mesenchymal stem cell
+D11_lb3	hepatic endoderm
+D11_lb6	hepatic endoderm
+D11_msc2	mesenchymal stem cell
+D12_he1	hepatic endoderm
+D12_he2	hepatic endoderm
+D12_huvec	endothelial
+D12_lb2	endothelial
+D12_lb5	mesenchymal stem cell
+D12_lb6	mesenchymal stem cell
+D12_msc2	mesenchymal stem cell
+D2_he2	hepatic endoderm
+D2_huvec	endothelial
+D2_lb3	endothelial
+D2_msc1	mesenchymal stem cell
+D2_msc2	mesenchymal stem cell
+D3_he2	hepatic endoderm
+D3_lb2	endothelial
+D3_lb3	hepatic endoderm
+D3_msc2	mesenchymal stem cell
+D4_he2	hepatic endoderm
+D4_huvec	endothelial
+D4_lb3	hepatic endoderm
+D4_lb5	endothelial
+D4_msc1	mesenchymal stem cell
+D4_msc2	mesenchymal stem cell
+D5_he1	hepatic endoderm
+D5_he2	hepatic endoderm
+D5_lb5	hepatic endoderm
+D5_lb6	hepatic endoderm
+D5_msc1	mesenchymal stem cell
+D6_he1	hepatic endoderm
+D6_he2	hepatic endoderm
+D6_huvec	endothelial
+D6_lb2	endothelial
+D6_msc2	mesenchymal stem cell
+D7_he2	hepatic endoderm
+D7_huvec	endothelial
+D7_lb2	endothelial
+D7_lb3	hepatic endoderm
+D7_msc2	mesenchymal stem cell
+D8_he1	hepatic endoderm
+D8_he2	hepatic endoderm
+D8_huvec	endothelial
+D8_lb2	endothelial
+D8_lb5	mesenchymal stem cell
+D8_msc2	mesenchymal stem cell
+D9_he1	hepatic endoderm
+D9_he2	hepatic endoderm
+D9_huvec	endothelial
+D9_lb1	mesenchymal stem cell
+D9_lb2	mesenchymal stem cell
+D9_lb5	hepatic endoderm
+D9_msc2	mesenchymal stem cell
+E1_he1	hepatic endoderm
+E1_he2	hepatic endoderm
+E1_huvec	endothelial
+E1_lb2	hepatic endoderm
+E1_lb6	hepatic endoderm
+E1_msc2	mesenchymal stem cell
+E10_huvec	endothelial
+E10_lb2	endothelial
+E10_lb3	hepatic endoderm
+E10_lb5	endothelial
+E11_he1	hepatic endoderm
+E11_huvec	endothelial
+E11_lb2	hepatic endoderm
+E11_lb5	mesenchymal stem cell
+E11_msc2	mesenchymal stem cell
+E12_he1	hepatic endoderm
+E12_lb2	endothelial
+E2_he1	hepatic endoderm
+E2_he2	hepatic endoderm
+E2_huvec	endothelial
+E2_lb2	mesenchymal stem cell
+E3_huvec	endothelial
+E3_lb2	endothelial
+E3_lb3	hepatic endoderm
+E3_msc2	mesenchymal stem cell
+E4_he1	hepatic endoderm
+E4_he2	hepatic endoderm
+E4_huvec	endothelial
+E4_lb2	mesenchymal stem cell
+E4_msc2	mesenchymal stem cell
+E5_he2	hepatic endoderm
+E5_lb3	hepatic endoderm
+E5_lb6	hepatic endoderm
+E5_msc1	mesenchymal stem cell
+E5_msc2	mesenchymal stem cell
+E6_he1	hepatic endoderm
+E6_he2	hepatic endoderm
+E6_huvec	endothelial
+E6_msc1	mesenchymal stem cell
+E6_msc2	mesenchymal stem cell
+E7_he2	hepatic endoderm
+E7_huvec	endothelial
+E7_lb1	mesenchymal stem cell
+E7_lb2	hepatic endoderm
+E7_msc2	mesenchymal stem cell
+E8_he1	hepatic endoderm
+E8_he2	hepatic endoderm
+E8_huvec	endothelial
+E8_lb2	endothelial
+E8_lb5	mesenchymal stem cell
+E9_he2	hepatic endoderm
+E9_huvec	endothelial
+E9_lb3	hepatic endoderm
+E9_lb5	mesenchymal stem cell
+E9_msc2	mesenchymal stem cell
+F1_he1	hepatic endoderm
+F1_lb2	hepatic endoderm
+F1_lb4	hepatic endoderm
+F1_lb5	mesenchymal stem cell
+F1_lb6	mesenchymal stem cell
+F1_msc2	mesenchymal stem cell
+F10_lb2	mesenchymal stem cell
+F10_lb3	hepatic endoderm
+F10_msc2	mesenchymal stem cell
+F11_he1	hepatic endoderm
+F11_huvec	endothelial
+F11_lb2	hepatic endoderm
+F11_msc2	mesenchymal stem cell
+F12_he1	hepatic endoderm
+F12_huvec	endothelial
+F12_lb2	endothelial
+F12_lb5	hepatic endoderm
+F12_msc2	mesenchymal stem cell
+F2_he1	hepatic endoderm
+F2_lb4	endothelial
+F2_lb5	endothelial
+F2_msc1	mesenchymal stem cell
+F3_he1	hepatic endoderm
+F3_huvec	endothelial
+F3_lb2	mesenchymal stem cell
+F3_lb4	endothelial
+F3_msc2	mesenchymal stem cell
+F4_he1	hepatic endoderm
+F4_huvec	endothelial
+F4_lb4	endothelial
+F4_msc1	mesenchymal stem cell
+F4_msc2	mesenchymal stem cell
+F5_he1	hepatic endoderm
+F5_huvec	endothelial
+F5_lb1	mesenchymal stem cell
+F5_lb5	hepatic endoderm
+F5_msc1	mesenchymal stem cell
+F5_msc2	mesenchymal stem cell
+F6_he1	hepatic endoderm
+F6_huvec	endothelial
+F6_lb1	mesenchymal stem cell
+F6_lb2	endothelial
+F6_lb5	mesenchymal stem cell
+F6_msc2	mesenchymal stem cell
+F7_he1	hepatic endoderm
+F7_huvec	endothelial
+F7_lb2	hepatic endoderm
+F7_msc2	mesenchymal stem cell
+F8_lb2	mesenchymal stem cell
+F8_lb4	hepatic endoderm
+F8_msc2	mesenchymal stem cell
+F9_he1	hepatic endoderm
+F9_huvec	endothelial
+F9_lb2	endothelial
+F9_lb5	hepatic endoderm
+F9_msc2	mesenchymal stem cell
+G1_huvec	endothelial
+G1_lb2	endothelial
+G1_lb3	hepatic endoderm
+G1_lb4	endothelial
+G1_lb5	mesenchymal stem cell
+G1_msc2	mesenchymal stem cell
+G10_huvec	endothelial
+G10_lb2	endothelial
+G10_lb3	hepatic endoderm
+G10_msc2	mesenchymal stem cell
+G11_he1	hepatic endoderm
+G11_lb5	mesenchymal stem cell
+G11_msc1	mesenchymal stem cell
+G11_msc2	mesenchymal stem cell
+G12_he1	hepatic endoderm
+G12_huvec	endothelial
+G12_lb2	mesenchymal stem cell
+G12_msc2	mesenchymal stem cell
+G2_huvec	endothelial
+G2_lb1	mesenchymal stem cell
+G2_lb3	mesenchymal stem cell
+G2_lb4	hepatic endoderm
+G2_lb5	mesenchymal stem cell
+G2_msc1	mesenchymal stem cell
+G2_msc2	mesenchymal stem cell
+G3_he1	hepatic endoderm
+G3_lb1	mesenchymal stem cell
+G3_lb2	endothelial
+G4_lb2	endothelial
+G4_lb3	endothelial
+G4_lb4	mesenchymal stem cell
+G4_msc2	mesenchymal stem cell
+G5_lb1	mesenchymal stem cell
+G5_lb3	endothelial
+G5_lb4	mesenchymal stem cell
+G5_msc1	mesenchymal stem cell
+G5_msc2	mesenchymal stem cell
+G6_he1	hepatic endoderm
+G6_huvec	endothelial
+G6_lb4	endothelial
+G6_lb5	hepatic endoderm
+G6_msc1	mesenchymal stem cell
+G6_msc2	mesenchymal stem cell
+G7_huvec	endothelial
+G7_lb4	endothelial
+G7_msc1	mesenchymal stem cell
+G7_msc2	mesenchymal stem cell
+G8_huvec	endothelial
+G8_lb1	mesenchymal stem cell
+G8_lb2	endothelial
+G8_lb3	endothelial
+G8_lb4	hepatic endoderm
+G8_msc2	mesenchymal stem cell
+G9_huvec	endothelial
+G9_lb2	hepatic endoderm
+G9_lb3	mesenchymal stem cell
+G9_msc2	mesenchymal stem cell
+H1_he1	hepatic endoderm
+H1_lb1	mesenchymal stem cell
+H10_huvec	endothelial
+H10_lb2	mesenchymal stem cell
+H10_lb3	endothelial
+H10_lb4	hepatic endoderm
+H10_lb5	hepatic endoderm
+H10_msc2	mesenchymal stem cell
+H11_he1	hepatic endoderm
+H11_lb2	hepatic endoderm
+H11_lb5	mesenchymal stem cell
+H11_lb6	mesenchymal stem cell
+H11_msc2	mesenchymal stem cell
+H12_he1	hepatic endoderm
+H12_huvec	endothelial
+H12_lb2	endothelial
+H2_he1	hepatic endoderm
+H2_lb1	mesenchymal stem cell
+H2_lb4	hepatic endoderm
+H2_lb5	mesenchymal stem cell
+H3_he1	hepatic endoderm
+H3_huvec	endothelial
+H3_lb1	mesenchymal stem cell
+H3_lb2	mesenchymal stem cell
+H3_msc2	mesenchymal stem cell
+H4_he1	hepatic endoderm
+H4_huvec	endothelial
+H4_msc1	mesenchymal stem cell
+H4_msc2	mesenchymal stem cell
+H5_he1	hepatic endoderm
+H5_huvec	endothelial
+H5_lb2	endothelial
+H5_lb6	hepatic endoderm
+H5_msc2	mesenchymal stem cell
+H6_he1	hepatic endoderm
+H6_huvec	endothelial
+H6_lb2	mesenchymal stem cell
+H6_lb6	mesenchymal stem cell
+H6_msc2	mesenchymal stem cell
+H7_huvec	endothelial
+H7_lb3	hepatic endoderm
+H7_msc2	mesenchymal stem cell
+H8_he1	hepatic endoderm
+H8_huvec	endothelial
+H8_lb1	mesenchymal stem cell
+H8_msc1	mesenchymal stem cell
+H8_msc2	mesenchymal stem cell
+H9_huvec	endothelial
+H9_lb3	hepatic endoderm
+H9_lb4	hepatic endoderm
+H9_msc2	mesenchymal stem cell

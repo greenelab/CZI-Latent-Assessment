@@ -1,0 +1,735 @@
+sample	celltype
+12wpc_A1_c1_fetal	dosal cortex progenitor
+12wpc_A1_c2_fetal	dosal cortex progenitor
+12wpc_A10_c1_fetal	Unknown
+12wpc_A10_c2_fetal	dosal cortex progenitor
+12wpc_A11_c1_fetal	dosal cortex neuron
+12wpc_A11_c2_fetal	dosal cortex neuron
+12wpc_A12_c1_fetal	dosal cortex neuron
+12wpc_A12_c2_fetal	dosal cortex neuron
+12wpc_A2_c1_fetal	dosal cortex neuron
+12wpc_A2_c2_fetal	dosal cortex neuron
+12wpc_A3_c1_fetal	dosal cortex neuron
+12wpc_A3_c2_fetal	dosal cortex neuron
+12wpc_A4_c1_fetal	dosal cortex neuron
+12wpc_A4_c2_fetal	dosal cortex neuron
+12wpc_A5_c1_fetal	dosal cortex neuron
+12wpc_A5_c2_fetal	neuron
+12wpc_A6_c1_fetal	dosal cortex neuron
+12wpc_A6_c2_fetal	dosal cortex neuron
+12wpc_A7_c1_fetal	dosal cortex neuron
+12wpc_A7_c2_fetal	dosal cortex neuron
+12wpc_A8_c1_fetal	dosal cortex neuron
+12wpc_A8_c2_fetal	dosal cortex progenitor
+12wpc_A9_c1_fetal	dosal cortex progenitor
+12wpc_A9_c2_fetal	dosal cortex neuron
+12wpc_B1_c1_fetal	dosal cortex neuron
+12wpc_B1_c2_fetal	dosal cortex neuron
+12wpc_B10_c1_fetal	dosal cortex neuron
+12wpc_B10_c2_fetal	dosal cortex neuron
+12wpc_B11_c1_fetal	dosal cortex progenitor
+12wpc_B11_c2_fetal	dosal cortex neuron
+12wpc_B12_c1_fetal	dosal cortex neuron
+12wpc_B2_c1_fetal	dosal cortex neuron
+12wpc_B2_c2_fetal	neuron
+12wpc_B3_c1_fetal	dosal cortex neuron
+12wpc_B3_c2_fetal	dosal cortex neuron
+12wpc_B4_c1_fetal	dosal cortex neuron
+12wpc_B5_c1_fetal	dosal cortex progenitor
+12wpc_B5_c2_fetal	dosal cortex neuron
+12wpc_B6_c1_fetal	neuron
+12wpc_B6_c2_fetal	dosal cortex neuron
+12wpc_B7_c1_fetal	Unknown
+12wpc_B7_c2_fetal	dosal cortex progenitor
+12wpc_B8_c2_fetal	dosal cortex neuron
+12wpc_B9_c2_fetal	Unknown
+12wpc_c1_C1_fetal	dosal cortex neuron
+12wpc_c1_C10_fetal	Unknown
+12wpc_c1_C12_fetal	dosal cortex neuron
+12wpc_c1_C2_fetal	dosal cortex neuron
+12wpc_C1_c2_fetal	dosal cortex neuron
+12wpc_c1_C3_fetal	dosal cortex neuron
+12wpc_c1_C4_fetal	Unknown
+12wpc_c1_C6_fetal	Unknown
+12wpc_c1_C9_fetal	dosal cortex neuron
+12wpc_c1_D1_fetal	dosal cortex neuron
+12wpc_c1_D10_fetal	dosal cortex neuron
+12wpc_c1_D11_fetal	Unknown
+12wpc_c1_D12_fetal	dosal cortex progenitor
+12wpc_c1_D2_fetal	dosal cortex neuron
+12wpc_c1_D4_fetal	dosal cortex neuron
+12wpc_c1_D5_fetal	dosal cortex progenitor
+12wpc_c1_D6_fetal	neuron
+12wpc_c1_D7_fetal	Unknown
+12wpc_c1_D8_fetal	dosal cortex neuron
+12wpc_c1_D9_fetal	dosal cortex progenitor
+12wpc_c1_E1_fetal	dosal cortex neuron
+12wpc_c1_E10_fetal	dosal cortex progenitor
+12wpc_c1_E12_fetal	dosal cortex neuron
+12wpc_c1_E3_fetal	dosal cortex neuron
+12wpc_c1_E5_fetal	dosal cortex neuron
+12wpc_c1_E6_fetal	dosal cortex neuron
+12wpc_c1_E7_fetal	dosal cortex neuron
+12wpc_c1_E8_fetal	dosal cortex neuron
+12wpc_c1_E9_fetal	dosal cortex progenitor
+12wpc_c1_F1_fetal	Unknown
+12wpc_c1_F10_fetal	dosal cortex neuron
+12wpc_c1_F11_fetal	dosal cortex neuron
+12wpc_c1_F12_fetal	dosal cortex progenitor
+12wpc_c1_F2_fetal	dosal cortex progenitor
+12wpc_c1_F3_fetal	Unknown
+12wpc_c1_F4_fetal	dosal cortex neuron
+12wpc_c1_F5_fetal	Unknown
+12wpc_c1_F7_fetal	dosal cortex neuron
+12wpc_c1_F8_fetal	dosal cortex progenitor
+12wpc_c1_F9_fetal	dosal cortex neuron
+12wpc_c1_fetal_G1	dosal cortex neuron
+12wpc_c1_fetal_G10	dosal cortex neuron
+12wpc_c1_fetal_G11	dosal cortex neuron
+12wpc_c1_fetal_G12	dosal cortex neuron
+12wpc_c1_fetal_G2	dosal cortex neuron
+12wpc_c1_fetal_G3	dosal cortex neuron
+12wpc_c1_fetal_G4	dosal cortex neuron
+12wpc_c1_fetal_G5	dosal cortex progenitor
+12wpc_c1_fetal_G6	dosal cortex neuron
+12wpc_c1_fetal_G7	Unknown
+12wpc_c1_fetal_G8	dosal cortex progenitor
+12wpc_c1_fetal_G9	dosal cortex neuron
+12wpc_c1_fetal_H10	dosal cortex neuron
+12wpc_c1_fetal_H11	dosal cortex neuron
+12wpc_c1_fetal_H12	dosal cortex neuron
+12wpc_c1_fetal_H2	neuron
+12wpc_c1_fetal_H3	dosal cortex neuron
+12wpc_c1_fetal_H5	dosal cortex neuron
+12wpc_c1_fetal_H6	dosal cortex neuron
+12wpc_c1_fetal_H7	dosal cortex neuron
+12wpc_c1_fetal_H8	dosal cortex progenitor
+12wpc_C11_c2_fetal	dosal cortex neuron
+12wpc_C12_c2_fetal	dosal cortex neuron
+12wpc_c2_C2_fetal	dosal cortex progenitor
+12wpc_c2_C3_fetal	Unknown
+12wpc_c2_C4_fetal	dosal cortex neuron
+12wpc_c2_C5_fetal	dosal cortex neuron
+12wpc_c2_C7_fetal	dosal cortex neuron
+12wpc_c2_C8_fetal	dosal cortex neuron
+12wpc_c2_C9_fetal	dosal cortex neuron
+12wpc_c2_D1_fetal	dosal cortex progenitor
+12wpc_c2_D10_fetal	dosal cortex neuron
+12wpc_c2_D11_fetal	dosal cortex progenitor
+12wpc_c2_D12_fetal	dosal cortex neuron
+12wpc_c2_D2_fetal	neuron
+12wpc_c2_D3_fetal	dosal cortex neuron
+12wpc_c2_D4_fetal	dosal cortex neuron
+12wpc_c2_D5_fetal	dosal cortex progenitor
+12wpc_c2_D6_fetal	dosal cortex neuron
+12wpc_c2_D7_fetal	dosal cortex neuron
+12wpc_c2_D8_fetal	dosal cortex progenitor
+12wpc_c2_D9_fetal	dosal cortex neuron
+12wpc_c2_E1_fetal	Unknown
+12wpc_c2_E11_fetal	Unknown
+12wpc_c2_E12_fetal	dosal cortex neuron
+12wpc_c2_E2_fetal	dosal cortex progenitor
+12wpc_c2_E3_fetal	dosal cortex neuron
+12wpc_c2_E4_fetal	dosal cortex neuron
+12wpc_c2_E5_fetal	dosal cortex progenitor
+12wpc_c2_E6_fetal	dosal cortex progenitor
+12wpc_c2_E7_fetal	dosal cortex neuron
+12wpc_c2_E8_fetal	dosal cortex neuron
+12wpc_c2_E9_fetal	dosal cortex neuron
+12wpc_c2_F1_fetal	dosal cortex neuron
+12wpc_c2_F12_fetal	dosal cortex neuron
+12wpc_c2_F2_fetal	dosal cortex progenitor
+12wpc_c2_F3_fetal	dosal cortex neuron
+12wpc_c2_F4_fetal	dosal cortex neuron
+12wpc_c2_F5_fetal	dosal cortex neuron
+12wpc_c2_F6_fetal	dosal cortex neuron
+12wpc_c2_F7_fetal	dosal cortex neuron
+12wpc_c2_F9_fetal	dosal cortex neuron
+12wpc_c2_fetal_G1	dosal cortex neuron
+12wpc_c2_fetal_G11	dosal cortex neuron
+12wpc_c2_fetal_G12	dosal cortex neuron
+12wpc_c2_fetal_G2	dosal cortex neuron
+12wpc_c2_fetal_G3	dosal cortex neuron
+12wpc_c2_fetal_G4	dosal cortex neuron
+12wpc_c2_fetal_G5	dosal cortex neuron
+12wpc_c2_fetal_G6	dosal cortex progenitor
+12wpc_c2_fetal_G7	dosal cortex progenitor
+12wpc_c2_fetal_G9	dosal cortex neuron
+12wpc_c2_fetal_H1	dosal cortex neuron
+12wpc_c2_fetal_H11	Unknown
+12wpc_c2_fetal_H12	dosal cortex progenitor
+12wpc_c2_fetal_H2	dosal cortex neuron
+12wpc_c2_fetal_H4	dosal cortex neuron
+12wpc_c2_fetal_H5	dosal cortex neuron
+12wpc_c2_fetal_H6	Unknown
+12wpc_c2_fetal_H7	dosal cortex neuron
+12wpc_c2_fetal_H8	dosal cortex neuron
+13wpc_A12_fetal	dosal cortex neuron
+13wpc_A4_fetal	dosal cortex neuron
+13wpc_A6_fetal	dosal cortex neuron
+13wpc_A7_fetal	dosal cortex neuron
+13wpc_A8_fetal	dosal cortex neuron
+13wpc_A9_fetal	dosal cortex neuron
+13wpc_B10_fetal	dosal cortex progenitor
+13wpc_B11_fetal	dosal cortex neuron
+13wpc_B12_fetal	dosal cortex neuron
+13wpc_B2_fetal	dosal cortex neuron
+13wpc_B3_fetal	dosal cortex neuron
+13wpc_B5_fetal	Unknown
+13wpc_B6_fetal	dosal cortex neuron
+13wpc_B7_fetal	Unknown
+13wpc_B8_fetal	dosal cortex neuron
+13wpc_C10_fetal	dosal cortex progenitor
+13wpc_C11_fetal	dosal cortex neuron
+13wpc_C12_fetal	dosal cortex neuron
+13wpc_C4_fetal	dosal cortex neuron
+13wpc_C5_fetal	dosal cortex neuron
+13wpc_C7_fetal	dosal cortex neuron
+13wpc_C9_fetal	dosal cortex neuron
+13wpc_D10_fetal	Unknown
+13wpc_D2_fetal	dosal cortex neuron
+13wpc_D3_fetal	neuron
+13wpc_D4_fetal	dosal cortex neuron
+13wpc_D8_fetal	dosal cortex neuron
+13wpc_D9_fetal	dosal cortex neuron
+13wpc_E1_fetal	dosal cortex neuron
+13wpc_E10_fetal	dosal cortex neuron
+13wpc_E11_fetal	dosal cortex neuron
+13wpc_E2_fetal	dosal cortex neuron
+13wpc_E3_fetal	dosal cortex neuron
+13wpc_E4_fetal	dosal cortex neuron
+13wpc_E5_fetal	dosal cortex neuron
+13wpc_F1_fetal	dosal cortex neuron
+13wpc_F10_fetal	dosal cortex neuron
+13wpc_F11_fetal	dosal cortex neuron
+13wpc_F2_fetal	Unknown
+13wpc_F3_fetal	dosal cortex neuron
+13wpc_F6_fetal	dosal cortex neuron
+13wpc_F7_fetal	dosal cortex neuron
+13wpc_F8_fetal	dosal cortex neuron
+13wpc_fetal_G1	dosal cortex neuron
+13wpc_fetal_G10	dosal cortex neuron
+13wpc_fetal_G11	dosal cortex neuron
+13wpc_fetal_G2	dosal cortex neuron
+13wpc_fetal_G5	dosal cortex neuron
+13wpc_fetal_G6	dosal cortex neuron
+13wpc_fetal_G7	dosal cortex neuron
+13wpc_fetal_G8	dosal cortex neuron
+13wpc_fetal_G9	dosal cortex neuron
+13wpc_fetal_H1	dosal cortex neuron
+13wpc_fetal_H11	dosal cortex neuron
+13wpc_fetal_H2	dosal cortex neuron
+13wpc_fetal_H4	dosal cortex neuron
+13wpc_fetal_H5	dosal cortex neuron
+13wpc_fetal_H6	dosal cortex neuron
+13wpc_fetal_H7	dosal cortex neuron
+13wpc_fetal_H8	dosal cortex neuron
+13wpc_fetal_H9	dosal cortex neuron
+53d_A1_ESC_hOrg_reg2	Unknown
+53d_A10_ESC_hOrg_reg1	dosal cortex progenitor
+53d_A11_ESC_hOrg_reg2	dosal cortex progenitor
+53d_A12_ESC_hOrg_reg1	dosal cortex progenitor
+53d_A2_ESC_hOrg_reg2	dosal cortex progenitor
+53d_A3_ESC_hOrg_reg1	dosal cortex neuron
+53d_A4_ESC_hOrg_reg1	mesenchyme
+53d_A5_ESC_hOrg_reg2	dosal cortex neuron
+53d_A6_ESC_hOrg_reg1	dosal cortex progenitor
+53d_A7_ESC_hOrg_reg2	dosal cortex progenitor
+53d_A8_ESC_hOrg_reg1	mesenchyme
+53d_A9_ESC_hOrg_reg1	dosal cortex progenitor
+53d_B1_ESC_hOrg_reg1	dosal cortex progenitor
+53d_B10_ESC_hOrg_reg2	dosal cortex neuron
+53d_B11_ESC_hOrg_reg1	Unknown
+53d_B12_ESC_hOrg_reg1	dosal cortex neuron
+53d_B2_ESC_hOrg_reg2	dosal cortex progenitor
+53d_B3_ESC_hOrg_reg2	dosal cortex progenitor
+53d_B4_ESC_hOrg_reg2	Unknown
+53d_B5_ESC_hOrg_reg1	dosal cortex neuron
+53d_B6_ESC_hOrg_reg2	dosal cortex progenitor
+53d_B7_ESC_hOrg_reg1	dosal cortex progenitor
+53d_B8_ESC_hOrg_reg1	mesenchyme
+53d_B9_ESC_hOrg_reg1	dosal cortex neuron
+53d_C1_ESC_hOrg_reg1	Unknown
+53d_C10_ESC_hOrg_reg2	Unknown
+53d_C11_ESC_hOrg_reg2	Unknown
+53d_C12_ESC_hOrg_reg1	Unknown
+53d_C2_ESC_hOrg_reg1	dosal cortex progenitor
+53d_C3_ESC_hOrg_reg2	dosal cortex neuron
+53d_C4_ESC_hOrg_reg2	dosal cortex progenitor
+53d_C5_ESC_hOrg_reg1	dosal cortex progenitor
+53d_C6_ESC_hOrg_reg1	dosal cortex neuron
+53d_C7_ESC_hOrg_reg1	dosal cortex progenitor
+53d_C8_ESC_hOrg_reg1	dosal cortex neuron
+53d_C9_ESC_hOrg_reg1	dosal cortex progenitor
+53d_D1_ESC_hOrg_reg2	Unknown
+53d_D10_ESC_hOrg_reg2	Unknown
+53d_D11_ESC_hOrg_reg2	dosal cortex progenitor
+53d_D12_ESC_hOrg_reg2	dosal cortex progenitor
+53d_D2_ESC_hOrg_reg2	dosal cortex progenitor
+53d_D3_ESC_hOrg_reg1	dosal cortex neuron
+53d_D4_ESC_hOrg_reg2	dosal cortex neuron
+53d_D5_ESC_hOrg_reg2	dosal cortex neuron
+53d_D6_ESC_hOrg_reg2	Unknown
+53d_D7_ESC_hOrg_reg2	dosal cortex progenitor
+53d_D8_ESC_hOrg_reg2	dosal cortex progenitor
+53d_D9_ESC_hOrg_reg1	mesenchyme
+53d_E1_ESC_hOrg_reg1	mesenchyme
+53d_E10_ESC_hOrg_reg1	dosal cortex progenitor
+53d_E11_ESC_hOrg_reg1	dosal cortex progenitor
+53d_E12_ESC_hOrg_reg1	Unknown
+53d_E2_ESC_hOrg_reg2	dosal cortex neuron
+53d_E3_ESC_hOrg_reg1	Unknown
+53d_E4_ESC_hOrg_reg1	dosal cortex progenitor
+53d_E5_ESC_hOrg_reg1	dosal cortex progenitor
+53d_E6_ESC_hOrg_reg2	Unknown
+53d_E7_ESC_hOrg_reg1	dosal cortex progenitor
+53d_E8_ESC_hOrg_reg2	dosal cortex progenitor
+53d_E9_ESC_hOrg_reg2	dosal cortex neuron
+53d_ESC_F1_hOrg_reg1	Unknown
+53d_ESC_F10_hOrg_reg1	dosal cortex neuron
+53d_ESC_F11_hOrg_reg1	Unknown
+53d_ESC_F12_hOrg_reg2	dosal cortex progenitor
+53d_ESC_F2_hOrg_reg2	dosal cortex progenitor
+53d_ESC_F3_hOrg_reg2	dosal cortex neuron
+53d_ESC_F4_hOrg_reg1	mesenchyme
+53d_ESC_F5_hOrg_reg2	Unknown
+53d_ESC_F6_hOrg_reg2	dosal cortex progenitor
+53d_ESC_F7_hOrg_reg2	dosal cortex progenitor
+53d_ESC_F8_hOrg_reg1	dosal cortex progenitor
+53d_ESC_F9_hOrg_reg1	dosal cortex progenitor
+53d_ESC_G1_hOrg_reg2	dosal cortex progenitor
+53d_ESC_G10_hOrg_reg2	dosal cortex neuron
+53d_ESC_G11_hOrg_reg1	dosal cortex neuron
+53d_ESC_G12_hOrg_reg1	dosal cortex neuron
+53d_ESC_G2_hOrg_reg2	Unknown
+53d_ESC_G3_hOrg_reg2	dosal cortex progenitor
+53d_ESC_G4_hOrg_reg1	dosal cortex progenitor
+53d_ESC_G5_hOrg_reg1	dosal cortex neuron
+53d_ESC_G6_hOrg_reg1	dosal cortex neuron
+53d_ESC_G7_hOrg_reg1	dosal cortex progenitor
+53d_ESC_G8_hOrg_reg2	Unknown
+53d_ESC_G9_hOrg_reg2	dosal cortex progenitor
+53d_ESC_H1_hOrg_reg1	dosal cortex neuron
+53d_ESC_H10_hOrg_reg2	Unknown
+53d_ESC_H11_hOrg_reg2	dosal cortex progenitor
+53d_ESC_H12_hOrg_reg2	dosal cortex neuron
+53d_ESC_H2_hOrg_reg2	dosal cortex progenitor
+53d_ESC_H3_hOrg_reg1	dosal cortex progenitor
+53d_ESC_H4_hOrg_reg2	dosal cortex neuron
+53d_ESC_H5_hOrg_reg2	Unknown
+53d_ESC_H6_hOrg_reg2	dosal cortex progenitor
+53d_ESC_H7_hOrg_reg1	dosal cortex progenitor
+53d_ESC_H8_hOrg_reg2	dosal cortex neuron
+53d_ESC_H9_hOrg_reg1	dosal cortex neuron
+58d_A1_hOrg_iPSC_reg4	Unknown
+58d_A10_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_A11_hOrg_iPSC_reg4	ventral progenitor
+58d_A4_hOrg_iPSC_reg4	neuron
+58d_A5_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_A6_hOrg_iPSC_reg4	Unknown
+58d_A8_hOrg_iPSC_reg3	dosal cortex neuron
+58d_B1_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_B10_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_B10_hOrg_iPSC_reg4	neuron
+58d_B11_hOrg_iPSC_reg3	Unknown
+58d_B12_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_B12_hOrg_iPSC_reg4	Unknown
+58d_B2_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_B2_hOrg_iPSC_reg4	neuron
+58d_B3_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_B4_hOrg_iPSC_reg4	Unknown
+58d_B5_hOrg_iPSC_reg3	Unknown
+58d_B8_hOrg_iPSC_reg3	dosal cortex neuron
+58d_B8_hOrg_iPSC_reg4	Unknown
+58d_B9_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_C1_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_C11_hOrg_iPSC_reg3	Unknown
+58d_C11_hOrg_iPSC_reg4	neuron
+58d_C12_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_C12_hOrg_iPSC_reg4	neuron
+58d_C4_hOrg_iPSC_reg3	Unknown
+58d_C4_hOrg_iPSC_reg4	Unknown
+58d_C5_hOrg_iPSC_reg3	Unknown
+58d_C6_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_C7_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_C7_hOrg_iPSC_reg4	neuron
+58d_C8_hOrg_iPSC_reg3	Unknown
+58d_C8_hOrg_iPSC_reg4	neuron
+58d_D10_hOrg_iPSC_reg3	Unknown
+58d_D11_hOrg_iPSC_reg3	dosal cortex neuron
+58d_D12_hOrg_iPSC_reg4	Unknown
+58d_D4_hOrg_iPSC_reg4	Unknown
+58d_D7_hOrg_iPSC_reg4	Unknown
+58d_D8_hOrg_iPSC_reg3	dosal cortex neuron
+58d_D9_hOrg_iPSC_reg3	Unknown
+58d_E10_hOrg_iPSC_reg4	Unknown
+58d_E2_hOrg_iPSC_reg3	Unknown
+58d_E2_hOrg_iPSC_reg4	Unknown
+58d_E3_hOrg_iPSC_reg3	dosal cortex neuron
+58d_E3_hOrg_iPSC_reg4	Unknown
+58d_E4_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_E5_hOrg_iPSC_reg3	Unknown
+58d_E5_hOrg_iPSC_reg4	Unknown
+58d_E6_hOrg_iPSC_reg4	Unknown
+58d_E7_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_E8_hOrg_iPSC_reg3	dosal cortex neuron
+58d_E9_hOrg_iPSC_reg3	dosal cortex neuron
+58d_E9_hOrg_iPSC_reg4	neuron
+58d_F1_hOrg_iPSC_reg3	Unknown
+58d_F10_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_F10_hOrg_iPSC_reg4	neuron
+58d_F12_hOrg_iPSC_reg4	neuron
+58d_F3_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_F5_hOrg_iPSC_reg4	neuron
+58d_F7_hOrg_iPSC_reg3	dosal cortex neuron
+58d_F8_hOrg_iPSC_reg4	neuron
+58d_G10_hOrg_iPSC_reg4	Unknown
+58d_G12_hOrg_iPSC_reg3	Unknown
+58d_G12_hOrg_iPSC_reg4	neuron
+58d_G3_hOrg_iPSC_reg3	dosal cortex neuron
+58d_G4_hOrg_iPSC_reg3	Unknown
+58d_G4_hOrg_iPSC_reg4	neuron
+58d_G7_hOrg_iPSC_reg4	neuron
+58d_G8_hOrg_iPSC_reg4	neuron
+58d_G9_hOrg_iPSC_reg3	dosal cortex neuron
+58d_G9_hOrg_iPSC_reg4	neuron
+58d_H10_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_H11_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_H11_hOrg_iPSC_reg4	neuron
+58d_H12_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_H3_hOrg_iPSC_reg4	neuron
+58d_H9_hOrg_iPSC_reg3	dosal cortex progenitor
+58d_H9_hOrg_iPSC_reg4	Unknown
+A1_hOrg35d	ventral progenitor
+A1_hOrg37d	ventral progenitor
+A1_hOrg41d	Unknown
+A1_hOrg65d	Unknown
+A10_hOrg35d	ventral progenitor
+A10_hOrg37d	ventral progenitor
+A10_hOrg41d	dosal cortex progenitor
+A10_hOrg65d	dosal cortex neuron
+A11_hOrg35d	ventral progenitor
+A11_hOrg37d	ventral progenitor
+A11_hOrg65d	neuron
+A12_hOrg37d	ventral progenitor
+A12_hOrg65d	neuron
+A2_hOrg35d	ventral progenitor
+A2_hOrg37d	Unknown
+A2_hOrg41d	dosal cortex progenitor
+A2_hOrg65d	Unknown
+A3_hOrg35d	Unknown
+A3_hOrg37d	Unknown
+A3_hOrg41d	Unknown
+A4_hOrg35d	ventral progenitor
+A4_hOrg37d	Unknown
+A4_hOrg41d	dosal cortex progenitor
+A4_hOrg65d	Unknown
+A5_hOrg35d	ventral progenitor
+A5_hOrg41d	mesenchyme
+A5_hOrg65d	dosal cortex neuron
+A6_hOrg35d	ventral progenitor
+A6_hOrg37d	Unknown
+A6_hOrg41d	dosal cortex progenitor
+A6_hOrg65d	dosal cortex progenitor
+A7_hOrg35d	ventral progenitor
+A7_hOrg37d	ventral progenitor
+A7_hOrg41d	dosal cortex progenitor
+A7_hOrg65d	mesenchyme
+A8_hOrg35d	ventral progenitor
+A8_hOrg37d	ventral progenitor
+A8_hOrg41d	ventral progenitor
+A8_hOrg65d	Unknown
+A9_hOrg35d	ventral progenitor
+A9_hOrg37d	Unknown
+A9_hOrg65d	Unknown
+B1_c2_hOrg33d	ventral progenitor
+B1_hOrg35d	ventral progenitor
+B1_hOrg41d	mesenchyme
+B1_hOrg65d	Unknown
+B10_hOrg35d	ventral progenitor
+B10_hOrg37d	Unknown
+B10_hOrg41d	mesenchyme
+B10_hOrg65d	dosal cortex progenitor
+B11_hOrg35d	Unknown
+B11_hOrg37d	ventral progenitor
+B11_hOrg41d	mesenchyme
+B11_hOrg65d	neuron
+B12_c2_hOrg33d	ventral progenitor
+B12_hOrg35d	ventral progenitor
+B12_hOrg65d	Unknown
+B2_hOrg35d	ventral progenitor
+B2_hOrg37d	Unknown
+B3_hOrg35d	ventral progenitor
+B3_hOrg37d	Unknown
+B3_hOrg41d	Unknown
+B3_hOrg65d	mesenchyme
+B4_hOrg35d	ventral progenitor
+B4_hOrg37d	Unknown
+B4_hOrg41d	neuron
+B4_hOrg65d	Unknown
+B5_hOrg35d	ventral progenitor
+B5_hOrg37d	Unknown
+B5_hOrg41d	dosal cortex progenitor
+B5_hOrg65d	Unknown
+B6_c2_hOrg33d	ventral progenitor
+B6_hOrg35d	ventral progenitor
+B6_hOrg41d	mesenchyme
+B6_hOrg65d	Unknown
+B7_c2_hOrg33d	ventral progenitor
+B7_hOrg35d	ventral progenitor
+B7_hOrg65d	Unknown
+B8_hOrg35d	ventral progenitor
+B8_hOrg37d	ventral progenitor
+B8_hOrg41d	Unknown
+B9_hOrg35d	ventral progenitor
+B9_hOrg37d	Unknown
+B9_hOrg41d	mesenchyme
+B9_hOrg65d	Unknown
+c1_G1_hOrg33d	ventral progenitor
+c1_G10_hOrg33d	ventral progenitor
+c1_G11_hOrg33d	ventral progenitor
+c1_G12_hOrg33d	ventral progenitor
+c1_G2_hOrg33d	ventral progenitor
+c1_G3_hOrg33d	ventral progenitor
+c1_G4_hOrg33d	ventral progenitor
+c1_G5_hOrg33d	ventral progenitor
+c1_G6_hOrg33d	ventral progenitor
+c1_G7_hOrg33d	ventral progenitor
+c1_G8_hOrg33d	ventral progenitor
+c1_G9_hOrg33d	ventral progenitor
+c1_H1_hOrg33d	ventral progenitor
+c1_H10_hOrg33d	Unknown
+c1_H11_hOrg33d	ventral progenitor
+c1_H12_hOrg33d	ventral progenitor
+c1_H2_hOrg33d	ventral progenitor
+c1_H3_hOrg33d	ventral progenitor
+c1_H4_hOrg33d	ventral progenitor
+c1_H5_hOrg33d	ventral progenitor
+c1_H6_hOrg33d	ventral progenitor
+c1_H7_hOrg33d	ventral progenitor
+c1_H8_hOrg33d	ventral progenitor
+c1_H9_hOrg33d	ventral progenitor
+C1_hOrg35d	ventral progenitor
+C1_hOrg37d	ventral progenitor
+C1_hOrg41d	Unknown
+C1_hOrg65d	dosal cortex neuron
+C10_c2_hOrg33d	Unknown
+C10_hOrg35d	Unknown
+C10_hOrg41d	Unknown
+C10_hOrg65d	neuron
+C11_c2_hOrg33d	ventral progenitor
+C11_hOrg35d	ventral progenitor
+C11_hOrg65d	Unknown
+C12_hOrg35d	ventral progenitor
+C12_hOrg37d	ventral progenitor
+C12_hOrg41d	ventral progenitor
+C12_hOrg65d	dosal cortex neuron
+c2_C8_hOrg33d	ventral progenitor
+c2_D2_hOrg33d	neuron
+c2_F1_hOrg33d	ventral progenitor
+c2_F6_hOrg33d	ventral progenitor
+c2_G6_hOrg33d	ventral progenitor
+c2_G7_hOrg33d	ventral progenitor
+c2_G8_hOrg33d	Unknown
+c2_H1_hOrg33d	ventral progenitor
+c2_H2_hOrg33d	ventral progenitor
+c2_H6_hOrg33d	ventral progenitor
+C2_hOrg35d	Unknown
+C2_hOrg37d	ventral progenitor
+C2_hOrg41d	ventral progenitor
+C2_hOrg65d	dosal cortex neuron
+C3_hOrg35d	Unknown
+C3_hOrg37d	ventral progenitor
+C3_hOrg41d	dosal cortex neuron
+C3_hOrg65d	Unknown
+C4_hOrg37d	ventral progenitor
+C4_hOrg65d	Unknown
+C5_hOrg35d	ventral progenitor
+C5_hOrg37d	ventral progenitor
+C5_hOrg41d	Unknown
+C5_hOrg65d	Unknown
+C6_hOrg35d	ventral progenitor
+C6_hOrg37d	Unknown
+C6_hOrg41d	mesenchyme
+C6_hOrg65d	Unknown
+C7_hOrg35d	ventral progenitor
+C7_hOrg37d	ventral progenitor
+C7_hOrg41d	Unknown
+C7_hOrg65d	Unknown
+C8_hOrg35d	ventral progenitor
+C8_hOrg41d	Unknown
+C8_hOrg65d	Unknown
+C9_hOrg35d	Unknown
+C9_hOrg37d	neuron
+C9_hOrg41d	Unknown
+C9_hOrg65d	Unknown
+D1_hOrg35d	ventral progenitor
+D1_hOrg37d	ventral progenitor
+D1_hOrg41d	Unknown
+D1_hOrg65d	dosal cortex neuron
+D10_hOrg41d	dosal cortex neuron
+D10_hOrg65d	Unknown
+D11_hOrg35d	ventral progenitor
+D11_hOrg37d	ventral progenitor
+D11_hOrg41d	dosal cortex progenitor
+D11_hOrg65d	Unknown
+D12_hOrg35d	ventral progenitor
+D12_hOrg37d	ventral progenitor
+D12_hOrg41d	neuron
+D12_hOrg65d	Unknown
+D2_hOrg35d	ventral progenitor
+D2_hOrg41d	mesenchyme
+D2_hOrg65d	dosal cortex neuron
+D3_hOrg35d	ventral progenitor
+D3_hOrg37d	Unknown
+D3_hOrg41d	mesenchyme
+D3_hOrg65d	neuron
+D4_hOrg35d	ventral progenitor
+D4_hOrg37d	ventral progenitor
+D4_hOrg41d	dosal cortex neuron
+D4_hOrg65d	Unknown
+D5_hOrg35d	ventral progenitor
+D5_hOrg37d	ventral progenitor
+D5_hOrg41d	Unknown
+D6_hOrg35d	ventral progenitor
+D6_hOrg41d	Unknown
+D6_hOrg65d	Unknown
+D7_hOrg35d	ventral progenitor
+D7_hOrg37d	ventral progenitor
+D7_hOrg41d	mesenchyme
+D7_hOrg65d	Unknown
+D8_hOrg35d	Unknown
+D8_hOrg37d	ventral progenitor
+D8_hOrg41d	Unknown
+D8_hOrg65d	dosal cortex neuron
+D9_hOrg35d	Unknown
+D9_hOrg37d	ventral progenitor
+D9_hOrg41d	Unknown
+E1_hOrg35d	Unknown
+E1_hOrg37d	ventral progenitor
+E1_hOrg41d	dosal cortex neuron
+E10_hOrg35d	ventral progenitor
+E10_hOrg37d	Unknown
+E10_hOrg65d	Unknown
+E11_hOrg35d	Unknown
+E11_hOrg37d	Unknown
+E11_hOrg65d	neuron
+E12_hOrg35d	ventral progenitor
+E12_hOrg37d	ventral progenitor
+E2_hOrg35d	ventral progenitor
+E2_hOrg37d	Unknown
+E2_hOrg41d	Unknown
+E2_hOrg65d	neuron
+E3_hOrg35d	ventral progenitor
+E3_hOrg37d	dosal cortex progenitor
+E3_hOrg41d	mesenchyme
+E3_hOrg65d	Unknown
+E4_hOrg35d	ventral progenitor
+E4_hOrg41d	Unknown
+E4_hOrg65d	dosal cortex progenitor
+E5_hOrg35d	ventral progenitor
+E5_hOrg37d	ventral progenitor
+E5_hOrg65d	Unknown
+E6_hOrg35d	ventral progenitor
+E6_hOrg37d	ventral progenitor
+E6_hOrg41d	dosal cortex progenitor
+E7_hOrg35d	ventral progenitor
+E7_hOrg37d	ventral progenitor
+E7_hOrg41d	mesenchyme
+E8_hOrg35d	ventral progenitor
+E8_hOrg37d	ventral progenitor
+E8_hOrg65d	neuron
+E9_hOrg35d	ventral progenitor
+E9_hOrg37d	ventral progenitor
+E9_hOrg41d	mesenchyme
+E9_hOrg65d	Unknown
+F1_hOrg41d	dosal cortex neuron
+F10_hOrg35d	ventral progenitor
+F10_hOrg37d	ventral progenitor
+F10_hOrg41d	mesenchyme
+F10_hOrg65d	Unknown
+F11_hOrg35d	ventral progenitor
+F11_hOrg37d	Unknown
+F11_hOrg41d	mesenchyme
+F11_hOrg65d	Unknown
+F12_hOrg35d	ventral progenitor
+F12_hOrg37d	ventral progenitor
+F12_hOrg41d	Unknown
+F12_hOrg65d	Unknown
+F2_hOrg35d	ventral progenitor
+F2_hOrg37d	Unknown
+F2_hOrg41d	Unknown
+F2_hOrg65d	Unknown
+F3_hOrg35d	ventral progenitor
+F3_hOrg37d	ventral progenitor
+F3_hOrg41d	Unknown
+F3_hOrg65d	Unknown
+F4_hOrg35d	ventral progenitor
+F4_hOrg37d	ventral progenitor
+F4_hOrg41d	dosal cortex progenitor
+F4_hOrg65d	dosal cortex neuron
+F5_hOrg35d	ventral progenitor
+F5_hOrg37d	Unknown
+F5_hOrg65d	Unknown
+F6_hOrg35d	ventral progenitor
+F6_hOrg41d	Unknown
+F7_hOrg35d	ventral progenitor
+F7_hOrg37d	ventral progenitor
+F7_hOrg41d	dosal cortex progenitor
+F7_hOrg65d	Unknown
+F8_hOrg35d	ventral progenitor
+F8_hOrg41d	mesenchyme
+F8_hOrg65d	Unknown
+F9_hOrg35d	ventral progenitor
+F9_hOrg37d	neuron
+F9_hOrg41d	ventral progenitor
+F9_hOrg65d	Unknown
+G1_hOrg41d	mesenchyme
+G1_hOrg65d	neuron
+G10_hOrg37d	ventral progenitor
+G10_hOrg41d	Unknown
+G10_hOrg65d	Unknown
+G11_hOrg37d	Unknown
+G11_hOrg41d	dosal cortex progenitor
+G11_hOrg65d	dosal cortex progenitor
+G12_hOrg37d	Unknown
+G12_hOrg41d	dosal cortex progenitor
+G12_hOrg65d	neuron
+G2_hOrg37d	ventral progenitor
+G2_hOrg65d	dosal cortex neuron
+G3_hOrg37d	Unknown
+G3_hOrg41d	mesenchyme
+G4_hOrg41d	Unknown
+G4_hOrg65d	Unknown
+G5_hOrg37d	ventral progenitor
+G5_hOrg41d	Unknown
+G5_hOrg65d	neuron
+G6_hOrg65d	neuron
+G7_hOrg41d	ventral progenitor
+G7_hOrg65d	neuron
+G8_hOrg41d	Unknown
+G8_hOrg65d	ventral progenitor
+G9_hOrg37d	Unknown
+G9_hOrg41d	dosal cortex neuron
+G9_hOrg65d	Unknown
+H1_hOrg65d	Unknown
+H10_hOrg37d	Unknown
+H10_hOrg41d	dosal cortex progenitor
+H11_hOrg37d	ventral progenitor
+H11_hOrg65d	Unknown
+H12_hOrg37d	neuron
+H12_hOrg65d	Unknown
+H2_hOrg41d	mesenchyme
+H3_hOrg37d	Unknown
+H3_hOrg41d	mesenchyme
+H3_hOrg65d	neuron
+H4_hOrg37d	Unknown
+H4_hOrg41d	dosal cortex progenitor
+H4_hOrg65d	neuron
+H6_hOrg65d	Unknown
+H7_hOrg37d	ventral progenitor
+H7_hOrg41d	mesenchyme
+H7_hOrg65d	mesenchyme
+H8_hOrg37d	ventral progenitor
+H8_hOrg41d	mesenchyme
+H9_hOrg65d	Unknown
