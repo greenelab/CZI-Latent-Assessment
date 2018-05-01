@@ -143,3 +143,26 @@ Z_dm_perf_vis <- function(perf.table){
   
   return(p)
 }
+
+learning_curve_plot <- function(filename, input.dir){
+  # plot training/validation loss
+  # Args:
+  #  lc.table: data frame contains training and validation loss for each epoch
+  #  filename: file name of lc.table
+  # Returns:
+  #  ggplot object that plot learning curve
+  
+  lc.table <- read.table(file.path(input.dir, filename), sep = "\t", header = TRUE)
+  # convert table format for ggplot2
+  lc.perf <- reshape2::melt(subset(lc.table, select = c("loss", "val_loss")))
+  names(lc.perf) <- c("variable", "loss")
+  lc.perf$epoch <- rep(seq(1, nrow(lc.table), 1), 2)
+  
+  filename <- gsub("_training.perf.tsv", "", filename)
+  filename <- gsub(".exp.matrix.txt_", " ", filename)
+  
+  plot <- ggplot2::ggplot(lc.perf) + geom_line(aes(x = epoch, y = loss, color = variable)) + 
+    labs(title = filename) + ggplot2::theme_minimal() + ggplot2::theme(plot.title = element_text(hjust = 0.5))
+  
+  return(plot)
+}
