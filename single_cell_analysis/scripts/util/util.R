@@ -29,6 +29,7 @@ kmeans_eval <- function(feature, celltype, iter = 50, seed = 1234){
   # iterative k-means
   nmi_score_all <- c()
   ari_score_all <- c()
+  all_cluster <- list()
   
   for(i in 1:iter){
     # set k equal to the number of celltypes in the dataset
@@ -53,6 +54,87 @@ kmeans_eval <- function(feature, celltype, iter = 50, seed = 1234){
   
   return(data.frame(nmi = round(mean(nmi_score_all), 2), ari = round(mean(ari_score_all), 2), 
                     nmi_var = round(sd(nmi_score_all), 2), ari_var = round(sd(ari_score_all), 2)))
+}
+
+cal_performance <- function(pred, class, option){
+  # Performance evaluation for classification
+  # Args:
+  #  pred: predicted class
+  #  class: true class
+  #  option: number of class labels in the training set
+  # Returns:
+  #  evaluation metrics (accruacy, precision, recall and f1)
+  
+  confusion <- as.matrix(table(class, pred, deparse.level = 0))
+  
+  if(option > 2){
+    n <- sum(confusion) # number of instances
+    nc <- nrow(confusion) # number of classes
+    diag <- diag(confusion) # number of correctly classified instances per class
+    accuracy <- sum(diag)/sum(confusion)
+    rowsums <- apply(confusion, 1, sum) # number of instances per class
+    colsums <- apply(confusion, 2, sum) # number of predictions per class
+    p <- rowsums / n # distribution of instances over the actual classes
+    q <- colsums / n # distribution of instances over the predicted classes
+    precision <- diag / colsums
+    recall <- diag / rowsums
+    f1 <- 2 * precision * recall / (precision + recall)
+    macroPrecision <- mean(precision, na.rm = T)
+    macroRecall <- mean(recall, na.rm = T)
+    macroF1 <- mean(f1, na.rm = T)
+    return(data.frame(accuracy = accuracy, macroPrecision = macroPrecision,
+                      macrorecall = macroRecall, macrof1 = macroF1))
+  } else {
+    accuracy <- (confusion[1,1] + confusion[2,2]) / sum(confusion)
+    precision <- confusion[1,1] / (confusion[1,1] + confusion[1,2])
+    recall <- confusion[1,1] / (confusion[1,1] + confusion[2,1])
+    f1 <- 2 * precision * recall / (precision + recall)
+    return(data.frame(accuracy = accuracy, Precision = precision,
+                      recall = recall, f1 = f1))
+  }
+}
+
+knn_eval <- function(feature, celltype, k = 5, seed = 1234){
+  # This function performs knn based evaluation 
+  # Args:
+  #  feature: a data.frame contains projected features (n dimensional space, n = 2, 3 ...), the columns are
+  #    projected features in n dimensional space for a sample (cell), rows are samples
+  #  celltype: vector contains cell type informantion
+  #  k: cross validation fold
+  # Returns:
+  #  performance metrics and confusion matrix
+  
+  cv <- cvTools::cvFolds(nrow(feature), K = k, R = 1)
+  feature$celltype <- celltype
+  
+  # remove id in feature
+  if("id" %in% names(feature)){
+    feature <- feature[, -1]
+  } 
+  
+  perf.eval <- list()
+  confusion.matrix <- 0
+    
+  for(i in 1:k){
+    train <- feature[cv$subset[-which(cv$which == i)], ]
+    test <- feature[cv$subset[which(cv$which == i)], ]
+    knn_fit <- caret::train(celltype ~., data = train, method = "knn",
+                     trControl = trainControl(method = "cv", number = 3),
+                     preProcess = c("center", "scale"),
+                     tuneLength = 10)
+    knn_pred <- predict(knn_fit, newdata = subset(test, select = -c(celltype)))
+    perf.eval[[i]] <- round(cal_performance(knn_pred, test$celltype, option = 3), 2)
+    matrix <- as.matrix(table(test$celltype, knn_pred, deparse.level = 0))
+    confusion.matrix <- matrix + confusion.matrix
+  }
+  
+  # get mean performance of cross validation
+  perf.eval <- dplyr::bind_rows(perf.eval)
+  perf.mean <- as.data.frame(t(colMeans(perf.eval)))
+  acc.sd <- sd(perf.eval$accuracy)
+  perf.mean$acc.sd <- acc.sd
+  
+  return(list(performance = perf.mean, confusion = confusion.matrix))
 }
 
 dim_reduc <- function(data, option = "SIMLR", seed = 12345){

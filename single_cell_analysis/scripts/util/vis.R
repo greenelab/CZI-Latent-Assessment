@@ -166,3 +166,29 @@ learning_curve_plot <- function(filename, input.dir){
   
   return(plot)
 }
+
+confusion_matrix_vis <- function(confusion.matrix, option, dataset = "null"){
+  # visulize confusion matrix
+  # Args:
+  #  confusion.matrix: confusion matrix get from an algorithm
+  #  option: algorithm, eg. tybalt_depth3
+  #  dataset: dataset name
+  # Returns:
+  #  ggplot of confusion matrix
+  
+  confusion.table <- reshape2::melt(confusion.matrix)
+  colnames(confusion.table) <- c("True", "Predicted", "value")
+  
+  ggheatmap <- ggplot(data = confusion.table, aes(x = True, y = Predicted, fill = value)) + 
+    geom_tile(color = "white") +
+    scale_fill_gradient2(low = "blue", high = "red", mid = "white", 
+                         midpoint = 0, limit = c(-1, 1), space = "Lab") +
+    theme_minimal() + 
+    theme(axis.text.x = element_text(angle = 45, vjust = 1, 
+                                     size = 12, hjust = 1)) +
+    coord_fixed() + 
+    geom_text(aes(True, Predicted, label = value), color = "black", size = 4) + 
+    ggtitle(paste(dataset, option, sep = " "))
+  
+  return(ggheatmap)
+}
