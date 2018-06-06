@@ -47,8 +47,8 @@ kmean_pf_metric <- function(input.dir, option = "real"){
     filelist <- c(tybalt_d1_files[i], tybalt_d2_files[i], tybalt_d3_files[i], tsne_files[i],
                   umap_files[i], zifa_files[i], pca_files[i])
     # read files
-    datalist = lapply(file.path(input.dir, filelist), function(x) read.table(x, header=T)) 
-    cellinfo <- read.table(file.path(input.dir, cellinfo.files[i]), sep = "\t", header = TRUE)
+    datalist = lapply(file.path(input.dir, filelist), function(x) read.table(x, header=T,  comment.char = "")) 
+    cellinfo <- read.table(file.path(input.dir, cellinfo.files[i]), sep = "\t", header = TRUE, comment.char = "")
     
     # extract dataset information
     dataset.info <- unlist(strsplit(tybalt_d1_files[i], split = "[.]"))
