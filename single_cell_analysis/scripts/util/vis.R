@@ -192,3 +192,4 @@ confusion_matrix_vis <- function(confusion.matrix, option, dataset = "null"){
   
   return(ggheatmap)
 }
+
