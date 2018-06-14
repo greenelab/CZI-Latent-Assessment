@@ -193,10 +193,11 @@ confusion_matrix_vis <- function(confusion.matrix, option, dataset = "null"){
   return(ggheatmap)
 }
 
-knn_perf_vis <- function(perf){
+knn_perf_vis <- function(perf, type = "real"){
   # boxplot for knn performance visulization (accuracy)
   # Args:
   #  perf: knn performance table
+  #  type: dataset type, e.g. simulated/real
   # Output:
   #  boxplot of knn accuracy plot
   output.dir <- "figures/model_eval"
@@ -225,7 +226,9 @@ knn_perf_vis <- function(perf){
     j <- j + 1
   }
   # output the remaining plots
-  cowplot::plot_grid(plotlist = p, ncol = i %% 4)
-  ggsave(file.path(output.dir, paste("knn.acc", i, "pdf", sep = ".")), 
+  if(i %%4 >0){
+    cowplot::plot_grid(plotlist = p, ncol = i %% 4)
+    ggsave(file.path(output.dir, paste(type, "knn.acc", i, "pdf", sep = ".")), 
          width = 7, height = 6)
+  }
 }
