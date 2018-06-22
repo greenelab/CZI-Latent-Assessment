@@ -80,6 +80,9 @@ write.table(knn.pf.metrics, quote = FALSE, col.names = TRUE,
             row.names = FALSE, sep = "\t", 
             file = file.path(output.dir, "simulated.knn.pf.metrics.txt"))
 
+# visulization for model performance 
+knn_perf_vis(knn.pf.metrics, type = "simulated")
+
 # knn performance for real data
 input.dir <- file.path("features", "real_data")
 output.dir <- "tables"
@@ -89,6 +92,8 @@ write.table(knn.pf.metrics, quote = FALSE, col.names = TRUE,
             row.names = FALSE, sep = "\t", 
             file = file.path(output.dir, "real.knn.pf.metrics.txt"))
 
+# visulization for model performance
+knn_perf_vis(knn.pf.metrics, type = "real")
 
 
 

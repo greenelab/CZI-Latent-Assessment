@@ -137,6 +137,61 @@ knn_eval <- function(feature, celltype, k = 5, seed = 1234){
   return(list(performance = perf.mean, confusion = confusion.matrix))
 }
 
+knn_eval_cell <- function(feature, celltype, k = 5, seed = 1234){
+  # This function performs knn based evaluation - validation is based on holdout cells
+  # Args:
+  #  feature: a data.frame contains projected features (n dimensional space, n = 2, 3 ...), the columns are
+  #    projected features in n dimensional space for a sample (cell), rows are samples
+  #  celltype: vector contains cell type informantion
+  #  k: cross validation fold
+  # Returns:
+  #  performance metrics and confusion matrix
+  
+  # get cell information
+  cell.id <- feature$id
+  cell.id <- gsub("[.].*", "", cell.id)
+
+  feature$celltype <- celltype
+  
+  #assign cell group information to feature table
+  feature$group <- cell.id
+  cell.id <- unique(cell.id)
+  
+  # cross validation - holdout for cells
+  cv <- cvTools::cvFolds(length(cell.id), K = k, R = 1)
+  
+  perf.eval <- list()
+  confusion.matrix <- 0
+  
+  for(i in 1:k){
+    # get cell ids for training set
+    cell.id.training <- cell.id[cv$subset[-which(cv$which == i)]]
+    # get cell ids for testing set
+    cell.id.testing <- cell.id[cv$subset[which(cv$which == i)]]
+    
+    train <- feature[feature$group %in% cell.id.training, c(2:4)]
+    test <- feature[feature$group %in% cell.id.testing, c(2:4)]
+    
+    knn_fit <- caret::train(celltype ~., data = train, method = "knn",
+                            trControl = trainControl(method = "cv", number = 3),
+                            preProcess = c("center", "scale"),
+                            tuneLength = 10)
+    knn_pred <- predict(knn_fit, newdata = subset(test, select = -c(celltype)))
+    perf.eval[[i]] <- round(cal_performance(knn_pred, test$celltype, option = 3), 2)
+    matrix <- as.matrix(table(test$celltype, knn_pred, deparse.level = 0))
+    confusion.matrix <- matrix + confusion.matrix
+  }
+  
+  # get mean performance of cross validation
+  perf.eval <- dplyr::bind_rows(perf.eval)
+  perf.mean <- as.data.frame(t(colMeans(perf.eval)))
+  acc.sd <- sd(perf.eval$accuracy)
+  perf.mean$acc.sd <- acc.sd
+  
+  return(list(performance = perf.mean, confusion = confusion.matrix))
+}
+
+
 dim_reduc <- function(data, option = "SIMLR", seed = 12345){
   # Perform SIMLR or PCA dimension reduction 
   # Args:
