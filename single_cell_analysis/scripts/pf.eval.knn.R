@@ -41,12 +41,14 @@ knn_perf_metric <- function(input.dir, option = "real"){
     filelist <- c(tybalt_d1_files[i], tybalt_d2_files[i], tybalt_d3_files[i], tsne_files[i],
                 umap_files[i], zifa_files[i], pca_files[i])
     # read files
-    datalist = lapply(file.path(input.dir, filelist), function(x) read.table(x, header=T, comment.char = ""))
-    cellinfo <- read.table(file.path(input.dir, cellinfo.files[i]), sep = "\t", header = TRUE, comment.char = "")
+    datalist = lapply(file.path(input.dir, filelist), 
+                      function(x) read.table(x, header=T, comment.char = ""))
+    cellinfo <- read.table(file.path(input.dir, cellinfo.files[i]), sep = "\t", 
+                           header = TRUE, comment.char = "")
     
     # extract dataset information
     dataset.info <- unlist(strsplit(tybalt_d1_files[i], split = "[.]"))
-    if(option == "real"){
+    if (option == "real"){
       dataset <- dataset.info[1]
     } else{
       dataset <- paste(dataset.info[2], dataset.info[3], sep = ".")
@@ -61,9 +63,9 @@ knn_perf_metric <- function(input.dir, option = "real"){
     
     # get knn-based performance
     perf[[i]] <- as.data.frame(do.call("rbind", lapply(knn.eval, "[[", 1)))
-    dataset <- rep(dataset, 7)
+    dataset <- rep(dataset, length(filelist))
     approach <- c("tybalt_depth3", "tybalt_depth2", "tybalt_depth1",
-                "rnaseq_tsne", "umap", "ZIFA", "pca")
+                  "rnaseq_tsne", "umap", "ZIFA", "pca")
     perf[[i]]$dataset <- dataset
     perf[[i]]$approach <- approach
     }
@@ -94,8 +96,3 @@ write.table(knn.pf.metrics, quote = FALSE, col.names = TRUE,
 
 # visulization for model performance
 knn_perf_vis(knn.pf.metrics, type = "real")
-
-
-
-
-
