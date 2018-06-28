@@ -2,9 +2,7 @@
 # Visulization and interpretation of cluster for real single cell datasets
 
 library(mlearning)
-setwd("/home/hu/Desktop/data/scRNA")
-source(file.path("codes/util", "vis.R"))
-
+source(file.path("codes", "util", "vis.R"))
 
 input.dir <- file.path("features", "real_data")
 output.dir <- file.path("figures", "real_data_interpretation")
@@ -34,7 +32,7 @@ for(j in 1:length(data.list)){
   filelist <- c(tybalt_d1_files, tybalt_d2_files, tybalt_d3_files, tsne_files,
                 umap_files, zifa_files, pca_files)
   # read files
-  datalist = lapply(file.path(input.dir, filelist), function(x) read.table(x, header=T))
+  datalist <- lapply(file.path(input.dir, filelist), function(x) read.table(x, header=T))
   cellinfo <- read.table(file.path(input.dir, cellinfofiles), sep = "\t", header = TRUE)
   
   # get knn-based eval and confusion matrix
@@ -42,7 +40,7 @@ for(j in 1:length(data.list)){
   
   # get knn-based performance
   perf[[j]] <- as.data.frame(do.call("rbind", lapply(knn.eval, "[[", 1)))
-  dataset <- rep(data.list[j], 7)
+  dataset <- rep(data.list[j], length(filelist))
   approach <- c("tybalt_depth3", "tybalt_depth2", "tybalt_depth1",
                 "rnaseq_tsne", "umap", "ZIFA", "pca")
   perf[[j]]$dataset <- dataset
