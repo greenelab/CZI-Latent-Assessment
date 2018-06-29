@@ -152,7 +152,7 @@ learning_curve_plot <- function(filename, input.dir){
   # Returns:
   #  ggplot object that plot learning curve
   
-  lc.table <- read.table(file.path(input.dir, filename), sep = "\t", header = TRUE)
+  lc.table <- readr::read_tsv(file.path(input.dir, filename))
   # convert table format for ggplot2
   lc.perf <- lc.table %>% dplyr::select(loss, val_loss) %>% reshape2::melt()
   names(lc.perf) <- c("variable", "loss")
