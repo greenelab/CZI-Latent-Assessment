@@ -143,3 +143,92 @@ Z_dm_perf_vis <- function(perf.table){
   
   return(p)
 }
+
+learning_curve_plot <- function(filename, input.dir){
+  # plot training/validation loss
+  # Args:
+  #  lc.table: data frame contains training and validation loss for each epoch
+  #  filename: file name of lc.table
+  # Returns:
+  #  ggplot object that plot learning curve
+  
+  lc.table <- readr::read_tsv(file.path(input.dir, filename))
+  # convert table format for ggplot2
+  lc.perf <- lc.table %>% dplyr::select(loss, val_loss) %>% reshape2::melt()
+  names(lc.perf) <- c("variable", "loss")
+  lc.perf$epoch <- rep(seq(1, nrow(lc.table), 1), 2)
+  
+  filename <- gsub("_training.perf.tsv", "", filename)
+  filename <- gsub(".exp.matrix.txt_", " ", filename)
+  
+  plot <- ggplot2::ggplot(lc.perf) + geom_line(aes(x = epoch, y = loss, color = variable)) + 
+    labs(title = filename) + ggplot2::theme_minimal() + ggplot2::theme(plot.title = element_text(hjust = 0.5))
+  
+  return(plot)
+}
+
+confusion_matrix_vis <- function(confusion.matrix, option, dataset = "null"){
+  # visulize confusion matrix
+  # Args:
+  #  confusion.matrix: confusion matrix get from an algorithm
+  #  option: algorithm, eg. tybalt_depth3
+  #  dataset: dataset name
+  # Returns:
+  #  ggplot of confusion matrix
+  
+  confusion.table <- reshape2::melt(confusion.matrix)
+  colnames(confusion.table) <- c("True", "Predicted", "value")
+  
+  ggheatmap <- ggplot(data = confusion.table, aes(x = True, y = Predicted, fill = value)) + 
+    geom_tile(color = "white") +
+    scale_fill_gradient2(low = "blue", high = "red", mid = "white", 
+                         midpoint = 0, limit = c(-1, 1), space = "Lab") +
+    theme_minimal() + 
+    theme(axis.text.x = element_text(angle = 45, vjust = 1, 
+                                     size = 12, hjust = 1)) +
+    coord_fixed() + 
+    geom_text(aes(True, Predicted, label = value), color = "black", size = 4) + 
+    ggtitle(paste(dataset, option))
+  
+  return(ggheatmap)
+}
+
+knn_perf_vis <- function(perf, simulated_or_real = "real"){
+  # boxplot for knn performance visulization (accuracy)
+  # Args:
+  #  perf: knn performance table
+  #  simulated_or_real: dataset type, e.g. simulated/real
+  # Output:
+  #  boxplot of knn accuracy plot
+  output.dir <- file.path("figures", "model_eval")
+  dataset <- unique(perf$dataset)
+  p <- list()
+  j <- 1
+  for(i in 1:length(dataset)){
+    data <- dplyr::filter(perf, dataset == dataset[i])
+    p[[j]] <- ggplot2::ggplot(data, aes(x = approach, y = accuracy)) + 
+      geom_errorbar(aes(ymin = accuracy - acc.sd, ymax = accuracy + acc.sd),
+                    width=.2, size = .2) + 
+      geom_point(size = 2) + theme_bw() + 
+      ggtitle(dataset[i]) + 
+      theme(axis.text.x = element_text(angle = 90, hjust = 1),
+            plot.title = element_text(hjust = 0.5))
+    
+    # ouput 4 plots at a time
+    if( j %% 4 == 0 ){
+      cowplot::plot_grid(plotlist = p, ncol = 2)
+      ggsave(file.path(output.dir, paste(simulated_or_real, "knn.acc", i, "pdf", sep = ".")), 
+             width = 7, height = 6)
+      p <- list()
+      j <- 1
+      next
+    }
+    j <- j + 1
+  }
+  # output the remaining plots
+  if(i %%4 >0){
+    cowplot::plot_grid(plotlist = p, ncol = i %% 4)
+    ggsave(file.path(output.dir, paste(simulated_or_real, "knn.acc", i, "pdf", sep = ".")), 
+         width = 7, height = 6)
+  }
+}
