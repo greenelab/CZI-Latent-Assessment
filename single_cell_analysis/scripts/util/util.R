@@ -56,18 +56,18 @@ kmeans_eval <- function(feature, celltype, iter = 50, seed = 1234){
                     nmi_var = round(sd(nmi_score_all), 2), ari_var = round(sd(ari_score_all), 2)))
 }
 
-cal_performance <- function(pred, type, option){
+cal_performance <- function(pred_class, true_class, num_class_labels){
   # Performance evaluation for classification
   # Args:
-  #  pred: predicted class type
-  #  type: true class type
-  #  option: number of class labels in the training set
+  #  pred_class: predicted class label
+  #  true_class: true class label
+  #  num_class_labels: number of class labels in the training set
   # Returns:
   #  evaluation metrics (accruacy, precision, recall and f1)
   
-  confusion <- as.matrix(table(type, pred, deparse.level = 0))
+  confusion <- as.matrix(table(true_class, pred_class, deparse.level = 0))
   
-  if(option > 2){
+  if(num_class_labels > 2){
     n <- sum(confusion) # number of instances
     nc <- nrow(confusion) # number of classes
     diag <- diag(confusion) # number of correctly classified instances per class

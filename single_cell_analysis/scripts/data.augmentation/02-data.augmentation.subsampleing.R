@@ -12,7 +12,7 @@ set.seed("12345")
 cell_sampling <- function(ncells, celltype, seed = 12345){
   # This function is used to sample number of cells from single-cell dataset
   # Args:
-  #  ncells: number of cells to sampling for each celltype
+  #  ncells: number of cells to sample for each celltype
   #  celltype: a file contains sample id and celltype information
   # Returns
   #  a data frame of subsampling of samples for each celltype
